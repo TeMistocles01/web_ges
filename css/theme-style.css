@@ -255,6 +255,20 @@ nav a#pull {
 
 /*Smartphone*/
 @media only screen and (max-width : 480px) {
+	/*
+	nav ul {
+		width: 80%;
+		display: block;
+		height: auto;
+		margin-top: .8em;
+	}
+
+	nav a {
+	  	
+		width: 100%;
+		text-indent: 0px;
+	}
+		*/
 	nav {
 		float:none;
 	}
@@ -543,18 +557,16 @@ nav a#pull {
 
 
 
-.slide-text-info p{
- font-size: 3.7em;
- font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
 /* bajar letras slider principal*/
 .slide-text-info{
 	margin-top:5%;
 }
 
+.slide-text-info p {
+	font-size: 3.5em;
+	
+ }
 
 
 
@@ -622,7 +634,7 @@ nav a#pull {
 
 /* efecto*/
 
-/* From Uiverse.io by ClawHack1 */ 
+
 .loader-origen {
 	display: flex;
 	justify-content: center;
@@ -804,7 +816,7 @@ nav a#pull {
 
 /* Funciones destacadas*/
 .features-Funciones-Destacadas{
-	background: linear-gradient( #5fd9fe 97% ,#FFFFFF);
+	background: linear-gradient( #5fd9fe 92% ,#FFFFFF);
 	background-color: #5fd9fe;
 	padding: 1em 0em 4.5em 0em;
 	
@@ -1030,7 +1042,8 @@ padding: 0em 0em 0em 0em;
 
 
 
-/*-----start-Share-instantly----*/
+/*-----coadyubar con el ministerio publico----*/
+
 .Share-instantly{
 	background: linear-gradient( #5fd9fe 80% ,#FFFFFF);
 	padding: 2em 0em;
@@ -1100,7 +1113,7 @@ p.img_slider{
 
 
 
-/*------ start-feature----*/
+/*------ Llamada de emergencia----*/
 .feature{
 	background: linear-gradient( #5fd9fe 80% ,#FFFFFF);
 	padding: 2em 0em;
@@ -1151,7 +1164,7 @@ p.img_slider1{
 
 
 
-/* justificacion*/
+/* De su creación*/
 
 .origen-container{
 	width: 100%;
@@ -1222,6 +1235,20 @@ p.img_slider1{
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);	
 }
 
+
+
+/*
+.card-origen-center .container-inscisos{
+	display: flex;
+	justify-content: space-around;
+}
+.card-origen-center .container-inscisos .incisos {
+	display: inline-block;
+	color: #FFFFFF;
+	margin: 0;
+	
+}
+	*/
 /* origen Contenedor  cards img patrulla y robo de vehiculo*/
 
 .origen-container .container-center .card-origen-center .container-unica-origen{
@@ -1236,7 +1263,7 @@ p.img_slider1{
 /*  cambia tamaño de card*/
 .origen-container .container-center .card-origen-center .container-unica-origen .container-img-multiple figure{
 	width: 20em;
-	height: 9.5em;
+	height: 11em;
 	position:relative;
 	display: flex;
 	overflow: hidden;
@@ -1273,11 +1300,11 @@ p.img_slider1{
 
 /* Text-grande titulo */
 .origen-container .container-center .card-origen-center .container-unica-origen .container-img-multiple figure:hover > .capa .title-foto{
-	font-size: 1.1em;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	font-size: 1.2em;
+	margin-top: .7em;
+	margin-bottom: .8em;
 	font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
 	
 }
@@ -1291,7 +1318,7 @@ p.img_slider1{
 /* texto pequeño imagen */
 .origen-container .container-center .card-origen-center .container-unica-origen .container-img-multiple figure .capa p{
 	color: #FFFFFF;
-	font-size: 1em;
+	font-size: 1.1em;
 	font-family: "Ubuntu", sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -1364,6 +1391,7 @@ p.img_slider1{
 	font-family: "Ubuntu", sans-serif;
   	font-weight: 300;
     font-style: normal;
+	
 	
 }
 
@@ -1461,12 +1489,12 @@ font-family: "Ubuntu", sans-serif;
 .box-animate{
 	position: relative;
 	width: 100%;
-	height: 25px;
+	height: 35px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	overflow:hidden;
-	border-radius: 12px;
+	
 
 
 }
@@ -1501,8 +1529,8 @@ border-radius: 1em;
  
 
 .icono-soborno{
-	width: 30%;
-	height:90px;
+	width: 14em;
+	height:6em;
 	border-radius: 5px;
 }
 
@@ -1571,6 +1599,13 @@ border-radius: 1em;
 }
 
 
+.container-4-img-flex .container-img-text .capa .text-unico{
+	font-size: 1.2em;
+	color: #FFFFFF;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
 
 
 .container-2-card-origen .card-origen-par .pie-card-tex-center{
@@ -2599,7 +2634,7 @@ color: #FFFFFF;
 /*tamaño de contorno formlario*/
 form {
 	width: 100%;
-	height: 41em;
+	height: 39em;
 	padding: 0em 2em;
 	border: 5px solid #FFFFFF;
 	border-radius: 15px;
@@ -2669,9 +2704,10 @@ form {
 
   /*Botones formulario*/
 
+  /*
 .btn_enviar_formulario{
 	width: 35%;
-	padding: 0.5em .5em;
+	padding: .5em .5em;
     font-family: inherit;
     font-size: 1.2em;
 	color: rgb(100, 100, 100);
@@ -2691,7 +2727,7 @@ form {
 	font-weight: bold;
 	border: 2px solid #FFFFFF; 
 }
-
+*/
 /*
 .btn_salir_formulario{
 	width: 35%;
@@ -2719,25 +2755,29 @@ form {
 */
 
 
+/* Botones */
+
+/*btn conttainer*/
 .modal_container .botones{
-	margin-top: 3em;
+	margin-top: 1.5em;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 		
 	}
 
+	/*btn salir*/
 
 .btn_salir_formulario {
 	position: relative;
 	display: flex;
 	align-items: center;
 	gap: 4px;
-	padding: 8px 60px;
+	padding: 8px 50px;
 	border: 4px solid;
 	border-color: transparent;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	background-color: inherit;
 	border-radius: 10px;
 	font-weight: 300;
@@ -2819,8 +2859,8 @@ form {
   }
   
 
-  /* boton neviar datos formulario*/
-.bt {
+  /* btn enviar*/
+.btn_enviar {
 	border: 4px solid;
 	user-select: none;
 	font-size: 18px;
@@ -2850,14 +2890,14 @@ form {
 	top: 25%;
   }
   
-  .bt:active {
+  .btn_enviar:active {
 	transition: all 0.001s ease;
 	background-color: #2fb4cc;
 	box-shadow: #97989a 0 0 0 0;
 	transform: translateX(1px) translateY(1px);
   }
   
-  .bt:hover .msg {
+  .btn_enviar:hover .msg {
 	animation: msgRun 2s forwards;
   }
   
@@ -3009,7 +3049,7 @@ form {
 	
 }
 
-/* */ 
+/* btn ir a formulario*/ 
 .btn_ir_modal_mostrar {
   display: flex;
   justify-content: center;
@@ -6274,14 +6314,12 @@ table{
 /* start bloke slider*/
 .container-text-slider-izquierda{
 	width: 65%;
-	float: left;
-	display: flex;	
+	
 }
 
 .container-text-slider-derecha{
 	width: 35%;
-	float: right;
-	display: flex;
+	
 }
 
 
@@ -6291,20 +6329,15 @@ table{
 .slide-text-info{
 	margin-top:6%;
 }
-
-	.top-nav ul li.active a, .top-nav ul li a:hover {
-		color: #2C3E50;
-	  }
-	.top-nav ul li a {
-		color: #2C3E50;
-		padding: 0em 0;
-	}
-
-	nav ul {
-		margin-top: 1em;
-	}
-
-	.container .header .container .marca_logo{
+.slide-text-info p {
+	font-size: 1.5em;
+	font-family: "Ubuntu", sans-serif;
+	 font-weight: 400;
+	 font-style: normal;
+	
+ }
+   
+ .container .header .container .marca_logo{
 	position: absolute;
 	top: 10px;
 	left: 15px;
@@ -6322,14 +6355,19 @@ table{
 		right: 0;
 		left: 0;
 	 }
+	.top-nav ul li.active a, .top-nav ul li a:hover {
+		color: #2C3E50;
+	  }
+	.top-nav ul li a {
+		color: #2C3E50;
+		padding: 0em 0;
+	}
 
- .slide-text-info p {
-	font-size: 1.2em;
+	nav ul {
+		margin-top: 1em;
+	}
+
 	
- }
- .slide-text-info-btns {
-	display: none;
- }
 
  /*tabs*/
 .callbacks_tabs{
@@ -6337,7 +6375,7 @@ table{
 	position: absolute;
 	top: 75%;
 	z-index: 999;
-	left: 27%;
+	left: 29%;
 	
 }
 
@@ -6355,7 +6393,15 @@ table{
 		text-align: center;
 		margin-top: 0em;		
 	}
+/* tipografia para los sub titulos*/
 
+.container-definicion .titles-principal h2{
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	  color: #FFFFFF;
+	  font-size: 1.3em;
+  }
 	.container-card-que-es-ges{
 		width: 100%;
 		display: flex;
@@ -6363,7 +6409,7 @@ table{
 		justify-content: center;
 		align-items: center;
 		display: inline-block;
-		margin-top: 1.5em;
+		margin-top: 1em;
 		margin-bottom: 1em;
 	}
 	
@@ -6389,19 +6435,18 @@ table{
 
 
 
-
-	/* tipografia para los sub titulos*/
-
-.container-definicion .titles-principal h2{
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-	color: #FFFFFF;
-	font-size: 1.3em;
-}
+	.container-loader-origen{
+		margin-top: .5em;
+		width: 100%;
+		display: flex;  /*para que los elementos se posicionen en horizontal uno al lado de otro*/
+		justify-content: center;
+	
+	 }
+	
+	
 	
 	.loader-origen {
-		padding-top: 1em;
+		
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -6454,7 +6499,7 @@ table{
 
 .features-Funciones-Destacadas .titles-principal{
 	text-align: center;
-	margin-top: .5em;	
+	
 }
 
 .features-Funciones-Destacadas .titles-principal h2{
@@ -6469,16 +6514,23 @@ table{
   .features-Funciones-Destacadas .sub-titulo{
 	text-align: center;
 	color: #635b5b;
-	padding: 0em;
-	margin: 0;
+	
 	}
 	
+.sub-titulo{
+	text-align: center;
+	color: #635b5b;
+	padding: 0em 0em 0em 0em;
+		
+	}
+
+
   /* Prevencion */
   .sub-titulo p{
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 300;
 	font-style: normal;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	}
 
 	.features-Funciones-Destacadas .seleccione p{
@@ -6491,7 +6543,7 @@ table{
 
 		/*louder9*/
 		.loader9 {
-			padding: 1em 0em 0em 0em;
+			padding: .7em 0em 0em 0em;
 				user-select: none;
 			  }
 
@@ -6509,7 +6561,7 @@ table{
 	 .container-card-funciones .features-grid .card-container {
 		width: 20em;
 		display: flex;
-		height: 420px;
+		height: 23em;
 		position: relative;
 		border-radius: 25px;
 		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -6533,16 +6585,83 @@ table{
  }
 
 
- .features-grids .features-grid h3 {
+ .features-grids .features-grid .text-funciones h3 {
    
-
-	font-size: 1.1em;
+	font-size: 1.2em;
  }
+
+
+ /*
  .features-grids .features-grid p {
 	font-size: 1em;
 	
 	
  }
+*/
+
+/* coadyubar con el ministerio publico*/
+ 
+.Share-instantly-left span{
+	background-size:65%;
+	width: 240px;
+	height: 330px;	
+	
+ } 
+
+ .Share-instantly .container .Share-instantly-right .titles-share h2{
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #FFFFFF;
+	font-size: 1.4em;
+
+}
+
+/*espaciado de textos slider */
+.slider .da-slider .slide-text p{
+	line-height: 1.4em;
+}
+/* configure llamadas de emergencia */
+
+.feature{
+	width: 100%;
+	height: max-content;
+	background: linear-gradient( #5fd9fe 80% ,#FFFFFF);
+	padding-top: 1em;
+}
+
+.feature .feature-left .titles-share h2{
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #FFFFFF;
+	font-size: 1.4em;
+}
+
+.feature-right{
+	margin-top: 0em;
+	float:right;
+	
+   }
+
+.feature-right span {
+	background-size:70%;
+	  width: 240px;
+	  height: 325px;
+	
+ }
+
+
+ .feature-right span{
+ 	background-position:0 0;
+
+	
+ }
+
+
+
+
+
 
 
 
@@ -7021,45 +7140,6 @@ width: 5em;
 height: 3.5em;
 }
 
-/* coadyubar con el ministerio publico*/
- 
-.Share-instantly-left span{
-	background-size:45%;
-	width: 220px;
-	height: 235px;	
-	
- } 
-
- 
-
-/* configure llamadas de emergencia */
-
-.feature{
-	width: 100%;
-	height: max-content;
-	background: linear-gradient( #5fd9fe 80% ,#FFFFFF);
-	padding-top: 1em;
-}
-.feature-right{
-	margin-top: 0em;
-	float:right;
-	
-   }
-
-.feature-right span {
-	background-size:100%;
-	  width: 120px;
-	  height: 230px;
-	
- }
-
-
- .feature-right span{
- 	background-position:0 0;
-
-	
- }
-
 
 
  
@@ -7318,33 +7398,22 @@ form {
 
 
 
-@media (min-width:480px) and (max-width:639px){ 
+@media (min-width:481px) and (max-width:639px){ 
 
-	nav ul {
-		width: 80%;
-		display: block;
-		height: auto;
-		margin-top: .8em;
-	}
-
-	nav a {
-	  	
-		width: 100%;
-		text-indent: 0px;
-	}
+	
 
 
 /* start bloke slider*/
 .container-text-slider-izquierda{
 	
-	float: left;
+	
 	width: 70%;
 	
 }
 
 .container-text-slider-derecha{
 	
-	float: right;
+	
 	width: 30%;
 	
 }
@@ -7353,10 +7422,35 @@ form {
 
 	/* bajar letras slider principal*/
 .slide-text-info{
-	margin-top:4%;
+	margin-top:6%;
 }
 
 
+.slide-text-info p {
+	font-size: 1.3em;
+	
+ }
+
+ 
+ .container .header .container .marca_logo{
+	position: absolute;
+top: 5px;
+left: 10px;
+	
+  }
+	
+.container .header .container .marca_logo .logo_ges{
+	width: 4em;
+	height: 2em;
+	
+  }
+
+.header {
+	position: absolute;
+	z-index: 999;
+	right: 0;
+	left: 0;
+ }
 	.top-nav ul li.active a, .top-nav ul li a:hover {
 		color: #2C3E50;
 	  }
@@ -7366,32 +7460,12 @@ form {
 	}
 
 	
-	
-	
-	.container .header .container .marca_logo{
-		position: absolute;
-	top: 5px;
-	left: 10px;
-		
-	  }
-		
-	.container .header .container .marca_logo .logo_ges{
-		width: 4em;
-		height: 2em;
-		
-	  }
+	nav ul {
+		margin-top: .8em;
+	}
 
-	.header {
-		position: absolute;
-		z-index: 999;
-		right: 0;
-		left: 0;
-	 }
-
- .slide-text-info p {
-	font-size: 1em;
 	
- }
+
  /*tabs*/
 .callbacks_tabs{
 	list-style: none;
@@ -7490,7 +7564,7 @@ altura de la posicion del boton
 	font-weight: 400;
 	font-style: normal;
 	color: #FFFFFF;
-	font-size: 1.4em;
+	font-size: 1.3em;
 	
 	}
 
@@ -7502,7 +7576,7 @@ altura de la posicion del boton
 	justify-content: center;
 	align-items: center;
 	display: inline-block;
-	margin-top: 1.5em;
+	margin-top: 1em;
 	margin-bottom: 1em;
 }
 
@@ -7526,9 +7600,16 @@ altura de la posicion del boton
 	height: 12em;
 }
 
+.container-loader-origen{
+	margin-top: .5em;
+	width: 100%;
+	display: flex;  /*para que los elementos se posicionen en horizontal uno al lado de otro*/
+	justify-content: center;
+
+ }
 
 .loader-origen {
-	padding-top: 1em;
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -7582,7 +7663,7 @@ font-size: 1em;
 
 .features-Funciones-Destacadas .titles-principal{
 	text-align: center;
-	margin-top: .5em;	
+	
 }
 
 .features-Funciones-Destacadas .titles-principal h2{
@@ -7597,16 +7678,23 @@ font-size: 1em;
   .features-Funciones-Destacadas .sub-titulo{
 	text-align: center;
 	color: #635b5b;
-	padding: 0em;
-	margin: 0;
+	
 	}
 	
+	
+.sub-titulo{
+	text-align: center;
+	color: #635b5b;
+	padding: 0em 0em 0em 0em;
+		
+	}
+
   /* Prevencion */
   .sub-titulo p{
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 300;
 	font-style: normal;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	}
 
 	.features-Funciones-Destacadas .seleccione p{
@@ -7619,7 +7707,7 @@ font-size: 1em;
 
 		/*louder9*/
 		.loader9 {
-			padding: 1em 0em 0em 0em;
+			padding: .7em 0em 0em 0em;
 				user-select: none;
 			  }
 
@@ -7637,7 +7725,7 @@ font-size: 1em;
 	 .container-card-funciones .features-grid .card-container {
 		width: 18em;
 		display: flex;
-		height: 430px;
+		height: 24.5em;
 		position: relative;
 		border-radius: 25px;
 		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -7663,13 +7751,97 @@ font-size: 1em;
 
  .features-grids .features-grid .text-funciones h3 {
    
-	font-size: 1.3em;
+	font-size: 1.2em;
  }
  .features-grids .features-grid p {
 	font-size: 1em;
 	
 	
  }
+
+
+
+/* coadyubar con el ministerio publico*/
+ 
+.Share-instantly-left span{
+	background-size:60%;
+	width: 240px;
+	height: 300px;	
+	
+ } 
+
+
+ .Share-instantly .container .Share-instantly-right .titles-share h2{
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #FFFFFF;
+	font-size: 1.4em;
+
+}
+
+
+/*espaciado de textos slider */
+.slider .da-slider .slide-text p{
+	line-height: 1.4em;
+}
+
+
+/* configure llamadas de emergencia */
+.feature{
+	width: 100%;
+	height: max-content;
+	background: linear-gradient( #5fd9fe 80% ,#FFFFFF);
+	padding-top: .5em;
+}
+
+.feature .feature-left .titles-share h2{
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #FFFFFF;
+	font-size: 1.4em;
+}
+
+/*Imagen  you.tube
+.slider .da-slider .da-slide #youtube-icon-slider{
+	width: 4em;
+	height: 3em;
+}
+*/
+.feature-right{
+	margin-top: 1.5em;
+	float:right;
+	
+   }
+
+
+.feature-right span{
+	background-size:80%;
+	width: 180px;
+	height: 300px;
+   }
+
+   .feature-right span{
+	background-position:0 0;
+	/*background-color: red;*/
+}
+
+
+   .feature-left .slider .da-slider1 .da-slide #llamada-img{
+	width: 4em;
+	height: 3em;
+	}
+
+/*espaciado de textos slider */
+.slider .da-slider1 .slide-text p{
+	line-height: 1.4em;
+}
+
+
+
+
+
 
 
 
@@ -8146,62 +8318,6 @@ td,th{
 
 
 
-/* coadyubar con el ministerio publico*/
- 
-.Share-instantly-left span{
-	background-size:45%;
-	width: 220px;
-	height: 235px;	
-	
- } 
-
-
-
-/*espaciado de textos slider */
-.slider .da-slider .slide-text p{
-	line-height: 1.4em;
-}
-
-
-/* configure llamadas de emergencia */
-
-/*Imagen  you.tube*/
-.slider .da-slider .da-slide #youtube-icon-slider{
-	width: 4em;
-	height: 3em;
-}
-
-.feature-right{
-	margin-top: 1.5em;
-	float:right;
-	/*background-color: red;*/
-   }
-
-   /* slider1  float: inline-start;*/
-
-.feature-right span{
-	background-size:100%;
-	width: 92px;
-	height: 210px;
-   }
-
-   .feature-right span{
-	background-position:0 0;
-	/*background-color: red;*/
-}
-
-
-   .feature-left .slider .da-slider1 .da-slide #llamada-img{
-	width: 4em;
-	height: 3em;
-	}
-
-/*espaciado de textos slider */
-.slider .da-slider1 .slide-text p{
-	line-height: 1.4em;
-}
-
-
 
  /* beneficios*/
 
@@ -8512,7 +8628,7 @@ width: 100%;
 }
 
 
-@media (min-width:320px) and (max-width:479px){
+@media (min-width:320px) and (max-width:480px){
 
 	
 
@@ -8552,7 +8668,51 @@ width: 100%;
 		padding: 0em 0;
 	}
 
+	.card-origen-center .container-box-animate{
+		width: 100%;
+		padding: 0em 0em;
 	
+	}
+	
+
+	.box-animate{
+		position: relative;
+		width: 100%;
+		height: 1em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		overflow:hidden;
+	}
+	
+	.box-animate::before{
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 50%;
+		background-color:white;
+		animation: animate 4s linear infinite; /*ajustar velocidad*/
+	}
+	
+	.box-animate::after{
+	content: '';
+	position: absolute;
+	inset: 3px;
+	background-color: #5fd9fe;
+	border-radius: .7em;
+	
+	}
+	
+	@keyframes animate{
+		0%{
+			transform: rotate(0deg);
+		}
+		100%{
+			transform: rotate(360deg);
+		}
+	}
+	
+
 .container .header .container .marca_logo{
 	position: absolute;
 	top: 5px;
@@ -8571,9 +8731,9 @@ width: 100%;
 .callbacks_tabs{
 	list-style: none;
 	position: absolute;
-	top: 79%;
+	top: 60%;
 	z-index: 999;
-	left: 40%;
+	left: 45%;
 	
 }
  
@@ -8672,7 +8832,8 @@ width: 100%;
 
 .label-card::before{
 	content:"Leer Màs";
-	font-size: small;
+	font-size: 1
+	em;
 	
 }
 
@@ -8742,7 +8903,7 @@ width: 100%;
 	 .container-card-funciones .features-grid .card-container {
 		width: 18em;
 		display: flex;
-		height: 430px;
+		height: 24em;
 		position: relative;
 		border-radius: 25px;
 		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -9618,7 +9779,7 @@ color: #FFFFFF;
 	/*background-color: rgba(0, 140, 255, 0.082);*/
 	/*#B3E5FC*/
   }
-
+  
 /* Modal bajando*/
 .modal_container{
     margin: auto;
@@ -9638,25 +9799,202 @@ form {
 	border: 5px solid #FFFFFF;
 	border-radius: 15px;
 }
-.botones{
-	text-align: center;
-	margin-top: 1.5em;
-	}
-
-.botones .btn_enviar_formulario{
-	font-size: .9em;
-
-	}
-
-	.botones .btn_salir_formulario{
-		font-size: .9em;
-}
 
 .modal_container .inputGroup label{
 	font-size: .9em;
 }
 
 
+/* Botones*/
+
+/*btn conttainer*/
+.modal_container .botones{
+	margin-top: 1.5em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+		
+	}
+
+
+	.btn_salir_formulario {
+		position: relative;
+		display: flex;
+		align-items: center;
+		gap: 4px;
+		padding: 8px 39px;
+		border: 4px solid;
+		border-color: transparent;
+		font-size: .9em;
+		background-color: inherit;
+		border-radius: 10px;
+		font-weight: 300;
+		color: #ffffff;
+		box-shadow: 0 0 0 2px #FFFFFF;
+		cursor: pointer;
+		overflow: hidden;
+		transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+	  }
+	
+
+
+	  .btn_salir_formulario svg {
+		position: absolute;
+		width: 24px;
+		fill: #ffffff;
+		z-index: 9;
+		transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+	  }
+	  
+	  .btn_salir_formulario .arr-1 {
+		right: 16px;
+	  }
+	  
+	  .btn_salir_formulario .arr-2 {
+		left: -25%;
+	  }
+	  
+	  /* cudrado azul*/
+	  .btn_salir_formulario .circle {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 50px;
+		height: 20px;
+		background-color: #5fd9fe;
+		border-radius: 30%;
+		opacity: 0;
+		transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+	  }
+	  
+	  .btn_salir_formulario .text {
+		position: relative;
+		z-index: 1;
+		transform: translateX(-12px);
+		transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+	  }
+	  
+	  .btn_salir_formulario:hover {
+		box-shadow: 0 0 0 12px transparent;
+		color: #FFFFFF;
+		border-radius: 12px;
+	  }
+	  
+	  .btn_salir_formulario:hover .arr-1 {
+		right: -25%;
+	  }
+	  
+	  .btn_salir_formulario:hover .arr-2 {
+		left: 16px;
+	  }
+	  
+	  .btn_salir_formulario:hover .text {
+		transform: translateX(12px);
+	  }
+	  
+	  .btn_salir_formulario:hover svg {
+		fill: #FFFFFF;
+	  }
+	  
+	  .btn_salir_formulario:active {
+		scale: 0.95;
+		box-shadow: 0 0 0 4px #FFFFFF;
+	  }
+	  
+	  .btn_salir_formulario:hover .circle {
+		width: 220px;
+		height: 220px;
+		opacity: 1;
+	  }
+
+
+
+
+	/* btn enviar*/
+.btn_enviar {
+	border: 4px solid;
+	user-select: none;
+	font-size: .9em;
+	color: white;
+	box-shadow: 0 0 0 2px #FFFFFF;
+	text-align: center;
+	background-color: inherit;
+	border-color: transparent;
+	/*
+	background-color: #5fd9fe;
+	box-shadow: #cacaca 2px 2px 10px 1px;
+	*/
+	border-radius: 10px;
+	height: 60px;
+	line-height: 60px;
+	width: 120px;
+	transition: all 0.2s ease;
+	position: relative;
+  }
+
+  
+  .msg {
+	height: 0;
+	width: 0;
+	border-radius: 2px;
+	position: absolute;
+	left: 15%;
+	top: 25%;
+  }
+  
+  .btn_enviar:active {
+	transition: all 0.001s ease;
+	background-color: #2fb4cc;
+	box-shadow: #97989a 0 0 0 0;
+	transform: translateX(1px) translateY(1px);
+  }
+  
+  .btn_enviar:hover .msg {
+	animation: msgRun 2s forwards;
+  }
+  
+  @keyframes msgRun {
+	0% {
+	  border-top: #d6d6d9 0 solid;
+	  border-bottom: #f2f2f5 0 solid;
+	  border-left: #f2f2f5 0 solid;
+	  border-right: #f2f2f5 0 solid;
+	}
+  
+	20% {
+	  border-top: #d6d6d9 14px solid;
+	  border-bottom: #f2f2f5 14px solid;
+	  border-left: #f2f2f5 20px solid;
+	  border-right: #f2f2f5 20px solid;
+	}
+  
+	25% {
+	  border-top: #d6d6d9 12px solid;
+	  border-bottom: #f2f2f5 12px solid;
+	  border-left: #f2f2f5 18px solid;
+	  border-right: #f2f2f5 18px solid;
+	}
+  
+	80% {
+	  border-top: transparent 12px solid;
+	  border-bottom: transparent 12px solid;
+	  border-left: transparent 18px solid;
+	  border-right: transparent 18px solid;
+	}
+  
+	100% {
+	  transform: translateX(150px);
+	  border-top: transparent 12px solid;
+	  border-bottom: transparent 12px solid;
+	  border-left: transparent 18px solid;
+	  border-right: transparent 18px solid;
+	}
+  }
+
+
+/*
 .btn-content {
 	display: flex;
 	align-items: center;
@@ -9672,7 +10010,7 @@ form {
 	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
   
   }
-  
+  */
 
  /*Boton modal*/
 /*boton
@@ -9822,6 +10160,123 @@ width: 100%;
     
 } 
 */
+
+
+/* btn ir a formulario*/ 
+.btn_ir_modal_mostrar {
+	display: flex;
+	justify-content: center;
+	--color-text: #5F7D8B;
+	--color-background: #FFFFFF;
+	--color-outline: #5fd9fe;
+	--color-shadow: #5fd9fe;
+   
+  }
+  
+  .btn-content {
+	display: flex;
+	align-items: center;
+	padding: 0px 50px;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	color: var(--color-text);
+	background: var(--color-background);
+	transition: 1s;
+	border-radius: 10px;
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+  
+  }
+  
+  .btn-content:hover, .btn-content:focus {
+	transition: 0.5s;
+	-webkit-animation: btn-content 1s;
+	animation: btn-content 1s;
+	outline: 0.1em solid transparent;
+	outline-offset: 0.2em;
+	color: #5fd9fe;
+   
+  }
+  
+  .btn-content .icon-arrow {
+	transition: 0.5s;
+	margin-right: 0px;
+	transform: scale(0.6);
+  }
+  
+  .btn-content:hover .icon-arrow {
+	transition: 0.5s;
+	margin-right: 25px;
+	
+  }
+  
+  .icon-arrow {
+	width: 20px;
+	margin-left: 15px;
+	position: relative;
+	top: 6%;
+	
+  }
+	
+  /* SVG */
+  #arrow-icon-one {
+	transition: 0.4s;
+	transform: translateX(-60%);
+  }
+  
+  #arrow-icon-two {
+	transition: 0.5s;
+	transform: translateX(-30%);
+  }
+  
+  .btn-content:hover #arrow-icon-three {
+	animation: color_anim 1s infinite 0.2s;
+  }
+  
+  .btn-content:hover #arrow-icon-one {
+	transform: translateX(0%);
+	animation: color_anim 1s infinite 0.6s;
+  }
+  
+  .btn-content:hover #arrow-icon-two {
+	transform: translateX(0%);
+	animation: color_anim 1s infinite 0.4s;
+  }
+  
+  /* SVG animations */
+  @keyframes color_anim {
+	0% {
+	  fill: #5fd9fe;
+	}
+  
+	50% {
+	  fill: var(--color-background);
+	}
+  
+	100% {
+	  fill: #5fd9fe;
+	}
+  }
+  
+  /* Button animations */
+  @-webkit-keyframes btn-content {
+	0% {
+	  outline: 0.2em solid var(--color-background);
+	  outline-offset: 0;
+	}
+  }
+  
+  @keyframes btn-content {
+	0% {
+	  outline: 0.2em solid var(--color-background);
+	  outline-offset: 0;
+	}
+  }
+
+
+
+
 
 /* ficha tecnica*/
 
