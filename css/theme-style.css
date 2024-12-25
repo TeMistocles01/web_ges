@@ -1186,9 +1186,6 @@ padding: 0em 0em 0em 0em;
 	font-size: 1.5em;
 }
 
-.seleccione{
-	padding-bottom: 0em;
-}
 
 
 .seleccione p{
@@ -1208,9 +1205,10 @@ padding: 0em 0em 0em 0em;
 .origen-container .container-center .titulo-origen-card p{
   color: #FFFFFF;
   font-family: "Ubuntu", sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   font-style: normal;
   font-size: 1.2em;
+  line-height: 1.2;  
 	
 }
 
@@ -1414,10 +1412,11 @@ padding: 0em 0em 0em 0em;
 
 .container-2-card-origen .card-origen-par .titulo-origen-card p{
 	color: #FFFFFF;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
+	line-height: 1.2;
 }
 
 
@@ -1459,7 +1458,7 @@ font-family: "Ubuntu", sans-serif;
 
 .container-logo-coorupcion{
 	text-align: center;
-	padding: .5em 0em;
+	padding: .3em 0em;
 	
 }
 
@@ -1530,19 +1529,20 @@ border-radius: 1em;
 	border-radius: 5px;
 }
 
+/*
 .icono-soborno:hover  {
 	
-	/*transform: perspective(900px) rotateY(360deg);  */
+	transform: perspective(900px) rotateY(360deg);  
     
 	transform: scale(1.1);
-	/*border: 2px solid #FFFFFF;*/
+	border: 2px solid #FFFFFF;
 
 }
-
+*/
 
 /*loader 5 letras de corrupccion */
 .container-loader .loader5 {
-	margin-bottom: .9em;
+	margin: 1em 0em;
 	position: relative;
 	overflow: hidden;
 	border-right: 3px solid;
@@ -1552,7 +1552,7 @@ border-radius: 1em;
   
 
   .loader-text {
-	font-size: 1.4em;
+	font-size: 1.2em;
 	font-weight: 200;
 	background: #FFFFFF;
 	-webkit-background-clip: text;
@@ -1881,7 +1881,7 @@ border-radius: 1em;
 
 .text-tabla1 {
 	display: flex;
-	width: 40%;
+	width: 50%;
 	background-color: #5F7D8B;
 	justify-content: center;
 	/*85b0d3*/
@@ -1918,13 +1918,13 @@ border-radius: 1em;
 
 iframe{
 	width: 50%;
-	height: 10em;
+	height: 10.5em;
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 }
 
 
 .container-tablas{
-	margin-top: 2em;
+	margin-top: 1.3em;
 	display: flex;
 	justify-content: space-around;
 
@@ -1935,7 +1935,7 @@ iframe{
 /* margen de base tabla*/
 
 .tabla-container{
-	
+	width: 45%;
 	
 	
 	
@@ -9841,11 +9841,11 @@ color: #FFFFFF;
 .modal_container{
     margin: auto;
     width: 100%;
-    max-width: 450px;
-    height: max-content;
+    max-width: 21em;
+    height: 43em;
 	/*background: #5fd9fe;*/
     border-radius: 20px;
-    padding: 1em 1em;
+    padding: 1em .8em;
     transform: var(--transform);
     transition: var(--transition);
 }
@@ -9855,6 +9855,7 @@ color: #FFFFFF;
 }
 form {
 	width: 100%;
+	height: 37.5em;  /* tamaño del alto*/
 	padding: 0em .5em;
 	border: 5px solid #FFFFFF;
 	border-radius: 15px;
@@ -9882,7 +9883,7 @@ form {
 		display: flex;
 		align-items: center;
 		gap: 4px;
-		padding: 8px 30px;
+		padding: 8px 35px;
 		border: 4px solid;
 		border-color: transparent;
 		font-size: .9em;
@@ -9986,7 +9987,7 @@ form {
 	border-radius: 10px;
 	height: 50px;
 	line-height: 30px;
-	width: 100px;
+	width: 110px;
 	transition: all 0.2s ease;
 	position: relative;
   }
