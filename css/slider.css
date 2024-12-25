@@ -74,6 +74,7 @@
 	z-index: 10;
 	font-family:'Open Sans', sans-serif;
 }
+
 .da-slide p{
 	width: 45%;
 	top:8em;
@@ -84,6 +85,9 @@
 	color: #AEAEAE;
 	margin-bottom:0;
 }
+
+
+
 .read_more{
 	margin-top:6em;
 }
@@ -724,6 +728,7 @@
 		width: 350px;
  		height:170px;
 		float: inline-start;
+		color: #AEAEAE;
 		
 
 	}
@@ -744,6 +749,7 @@
  		height:200px;
 		left: 10px;
 		float: inline-start;
+		color: #AEAEAE;
 	}
 
 }
@@ -766,6 +772,7 @@
  		height:190px;
 		left: -20px;
 		float: inline-start;
+		color: #AEAEAE;
 		
 
 	}
@@ -787,6 +794,7 @@
  		height:170px;
 		left: -20px;
 		float: inline-start;
+		color: #AEAEAE;
 	}
 
 	.da-slide {
@@ -816,16 +824,15 @@
 
 	/* da-sider = carrucel configurar llamada */
 	.da-slider1{
-		
 		width: 270px;
 		height:170px;
 	   right: 10px;
 	   float: inline-start;
+	   color: #AEAEAE;
 	  
 	   
    }
-	.da-slide {
-		
+	.da-slide {	
 		top: -90px;
 		margin-left: -5px;
 	}
@@ -840,11 +847,6 @@
 		right: 110%; /*60%*/
 	}
 
-
-
-	
-
-	
 
 	/*Imagen  llamada*/
 
