@@ -557,7 +557,6 @@ nav a#pull {
  }
 
 
-
 /* Que es Ges start */
 .container-definicion{
 	width: 100%;
@@ -1163,7 +1162,7 @@ padding: 0em 0em 0em 0em;
 
 
 .card-origen-center{
-	width:  40%;
+	width:  50%;
 	padding: .5em 1em;
 	border:  3px #FFFFFF solid;
 	border-radius: 5px;
@@ -1285,7 +1284,7 @@ padding: 0em 0em 0em 0em;
 }
 
 .card-origen-par{
-	width:  40%;
+	width:  50%;
 	padding: .5em 1em;
 	border:  3px #FFFFFF solid;
 	border-radius: 5px;
