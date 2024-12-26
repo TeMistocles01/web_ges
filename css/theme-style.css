@@ -54,6 +54,7 @@ p,th,td{
 	position:relative;
 }
 
+/* hacer menu  mmobible */
 .header{
 	position: fixed;
 	z-index: 100;
@@ -90,19 +91,7 @@ p,th,td{
 	
 }
 
-/*
-background: url(../images/border-top.png) no-repeat 50% 0px;
-background-color: #708293;
-#708293
-#8fadc6
 
-*/
-
-/*
-.logo a{
-	display:block;
-}
-*/
 
 /* top-nav */
 .top-nav:before,
@@ -148,34 +137,36 @@ nav a#pull {
 
 /*Styles for screen 600px and lower*/
 @media screen and (max-width: 768px) {
+
+	
+	
 	
 	nav {
-		
+		position: relative;
   		height: auto;
   		float:none;
 		  
   	}
   	nav ul {
-  		width: 30%;
+  		width: 70%;
   		display: block;
   		height: auto;
-		padding-top: 1em;  
-		
-		
-		
+		padding-top: 1em;  	
   	}
+
   	nav li {
+		display: inline;
   		width: 100%;
   		position: relative;
-		  
   	}
 	
   	
 	nav li a {
 		border-bottom: 1px solid#1a1b1c;
 	}
-  	nav a {
-	  	
+
+  	nav a {  
+		display: inline-block;
 	  	width: 100%;
 	  	text-indent: 0px;
   	}
@@ -188,7 +179,7 @@ nav a#pull {
   		float:none;
   	}
   	nav ul {
-  		width: 40%;
+  		width: 100%;
   		display: block;
   		height: auto;
   	}
@@ -223,7 +214,8 @@ nav a#pull {
 		display: none;
 		height: auto;
 		margin:0;
-		background: #fff;
+		/*background: #fff;*/
+		
 	}
 	nav a#pull {
 		display: block;
@@ -255,12 +247,7 @@ nav a#pull {
 
 /*Smartphone*/
 @media only screen and (max-width : 480px) {
-	nav ul {
-		width: 100%;
-		display: block;
-		height: auto;
-	  margin-top: .8em;
-	}
+	
 	/*
 	nav ul {
 		width: 80%;
@@ -301,12 +288,7 @@ nav a#pull {
 /*Smartphone*/
 @media only screen and (max-width : 320px) {
 
-	nav ul {
-		width: 100%;
-		display: block;
-		height: auto;
-	  margin-top: .8em;
-	}
+	
 
 	
 	nav {
@@ -3781,7 +3763,7 @@ nav a#pull {
 .container-card-funciones .features-grid .card-container {
 	width: 19em;
 	display: flex;
-	height: 420px;
+	height: 23.7em;
 	position: relative;
 	border-radius: 25px;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -3901,7 +3883,7 @@ nav a#pull {
 /*  cambia tamaño de card*/
 .origen-container .card-origen-center .container-center-origen .container-img-multiple figure{
 	width: 19em;
-	height: 12em;
+	height: 11em;
 	display: flex;
 	overflow: hidden;
 	border-radius: 10px;
@@ -5435,22 +5417,12 @@ table{
 
 	/* start bloke slider*/
 .container-text-slider-izquierda{
-	width: 70%;
-	float: left;
-	display: flex;
-	
-	
+	width: 70%;	
 }
 
 .container-text-slider-derecha{
 	width: 30%;
-	float: left;
-	display: flex;
-	
-	
 }
-
-
 
 /* end bloke slider*/
 
@@ -5477,7 +5449,7 @@ table{
 		
 	  }
 	.header {
-		position: absolute;
+		position: fixed;
 		z-index: 999;
 		right: 0;
 		left: 0;
@@ -6325,7 +6297,7 @@ table{
 	  }
 
 	.header {
-		position: absolute;
+		position: fixed;
 		z-index: 999;
 		right: 0;
 		left: 0;
@@ -7421,7 +7393,7 @@ left: 10px;
   }
 
 .header {
-	position: absolute;
+	position: fixed;
 	z-index: 999;
 	right: 0;
 	left: 0;
@@ -8606,7 +8578,12 @@ width: 100%;
 @media (min-width:320px) and (max-width:480px){
 
 	
-
+	.header {
+		position: fixed;
+		z-index: 999;
+		right: 0;
+		left: 0;
+	 }
 	
 /* start bloke slider*/
 .container-text-slider-izquierda{
