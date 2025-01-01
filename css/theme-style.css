@@ -3181,8 +3181,8 @@ form {
 	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
 	width: 100%;
 	padding: 2em 0em 2em 0em;
-
 }
+
 .compatibility h3{
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 400;
@@ -4573,9 +4573,15 @@ p.cousel_demo{
 
  /* pie de pagina */
  
+ /*------ficha tecnica----*/
+.compatibility{
+	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
+	width: 100%;
+	padding: 2em 0em 0em 0em;
+}
  .pie-pagina .grupo-1{
     width: 100%;
-    max-width: 1200px;
+   height: max-content;
     margin: auto;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
@@ -4599,7 +4605,6 @@ p.cousel_demo{
 	width: 25%;
 		
 }
-
 
 
 /* end bloke slider*/
@@ -4768,6 +4773,7 @@ p.cousel_demo{
 	height: 11em;
 }
 
+
  /* Funciones destacadas*/
 
  .features-Funciones-Destacadas{
@@ -4878,6 +4884,7 @@ p.cousel_demo{
 
 
 /* De su creacion */
+
 .origen-container{
 	width: 100%;
 	height: max-content;
@@ -5210,52 +5217,6 @@ table{
 	}
 
 
-/*ficha tecnica*/
-
-.compatibility{
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
-	width: 100%;
-	height: 30em;
-}
-
-.compatibility h3{	
-	font-family: "Ubuntu", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 1.1em;
-	border-bottom: 2px solid #FFFFFF;
-	padding: .5em 0em;	
-}
-
-.compatibility-grids .compatibility-right h4{
-	font-family: "Ubuntu", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 1em;
-	padding: .5em 0em;
-}
-.compatibility .compatibility-grids .compatibility-left h4{
-	
-	font-family: "Ubuntu", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 1em;
-	padding: .5em 0em;
-	
-}
-.compatibility p{
-	
-	line-height: 1.2em;
-	
-	font-family: "Ubuntu", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  
-}
-
-.compatibility .list-inline{
-	margin-top: .5em;
-}
  .head-para {
 	width: 100%;
  }
@@ -5268,6 +5229,10 @@ table{
  
 /* coadyubar con el ministerio publico*/
  
+.Share-instantly {
+	background: linear-gradient( #5fd9fe 93% ,#FFFFFF);
+
+}
 .Share-instantly-left span{
 	background-size:45%;
 	width: 300px;
@@ -5275,13 +5240,18 @@ table{
 	margin-top: 1em;
  }
 
- 
+ .Share-instantly .container .Share-instantly-right .titles-share h2{
+	font-size: 1.8em;
+	font-family: "Ubuntu", sans-serif;
+	  font-weight: 300;
+	  font-style: normal;
+
+ }
+ /* configure llamadas de emergencia */
 
  .feature{
-	background: linear-gradient( #5fd9fe 75% ,#FFFFFF);
+	background: linear-gradient( #5fd9fe 93% ,#FFFFFF);
 }
-
- /* configure llamadas de emergencia */
 
  .feature-right{
   float:right;
@@ -5299,22 +5269,26 @@ table{
  .footer {
 	padding:10px 0;
  }
- .Share-instantly-right h3, .feature h3{
-	font-size: 1.5em;
- }
+ 
 
-
+ .feature .container .feature-left .titles-share  h2{
+	font-size: 1.8em;
+	font-family: "Ubuntu", sans-serif;
+	  font-weight: 300;
+	  font-style: normal;
+  
+   }
 
 
  /* beneficios*/
 .container-tarjeta .card-tarjeta{
     position: relative;
-    width: 15em;
-    height: 26em;
+    width: 16em;
+    height: 27em;
     margin: 5px;	
 }
 
-/*Margen en todos los costados*/
+/*Margen en todos los costados
 .card-tarjeta .back {
     transform: perspective(600px) rotateY(180deg);
 	padding: 0em .7em;
@@ -5323,91 +5297,209 @@ table{
    justify-content: space-between;
     box-shadow: 0 5px 10px #000;
 }
+*/
 
-/*texto ges card*/
-.card-tarjeta .back .title-back {
-	margin-top: 1.1em;
+/* container Titulo */
+.header-card1 {
+	height: 3em;
+	position: relative;
+	background-clip: border-box;
+	margin-top: 1em;
+	margin-left: .3em;
+	margin-right: .3em;
+	border-radius: 0.45em;
+	background: linear-gradient( #5fd9fe 80% ,#FFFFFF);
+	box-shadow: 0 10px 15px -3px rgba(33,150,243,.4),0 4px 6px -4px rgba(33,150,243,.4);
+  }
+
+ /*Titulo p */
+  .header-card1 p{
+    display: flex;
+	justify-content: center;
 	color: #FFFFFF;
-	text-align: center;
-	font-size: 1.3em;		
-}
+	font-size: 1.1em;
+	flex-direction: row;
+  }
 
-.card-tarjeta .back .sub-title-back{
-	margin-top: 4.5em;
-	font-size: .9em;		
-	position: absolute;
-}
+  .info1 {
+	text-align: center;
+	border: none;
+	padding: .5em 0em;
+	margin-left: auto;
+	margin-right: auto;
+	
+	/*
+	text-align: center;
+	*/
+  }
+  
+  
+  .info-card1 {
+	border: none;
+	padding: 0em .4em;
+  }
+
+  .info-card1 p{
+  font-size: .9em;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 2.5em; 
+  }
+
+
+  .footer-beneficios1 {
+	margin-top: 3.5em;
+	padding: 0.75rem;
+	border: 2px #FFFFFF solid;
+	/*border: 2px solid rgb(236 239 241);*/
+	display: flex;
+	flex-direction: column;
+	background-color: #B3E5FC;
+	opacity: 0.7;
+	/*background-color: rgba(0, 140, 255, 0.082);*/
+	/*#B3E5FC*/
+  }
+  
+
+/* container Titulo */
+.header-card2 {
+	height: 3em;
+	position: relative;
+	background-clip: border-box;
+	margin-top: 1em;
+	margin-left: .3em;
+	margin-right: .3em;
+	border-radius: 0.45em;
+	background: linear-gradient( #5fd9fe 80% ,#FFFFFF);
+	box-shadow: 0 10px 15px -3px rgba(33,150,243,.4),0 4px 6px -4px rgba(33,150,243,.4);
+  }
+
+
+ /*Titulo */
+ .header-card2 p{
+    display: flex;
+	justify-content: center;
+	color: #FFFFFF;
+	font-size: 1.1em;
+	flex-direction: row;
+	
+  }
+
+  .info2 {
+	text-align: center;
+	border: none;
+	padding: .5em 0em;
+	margin-left: auto;
+	margin-right: auto;
+	/*
+	text-align: center;
+	*/
+  }
+  
+  .info-card2 {
+	border: none;
+	padding: 0em .4em;
+  }
+
+
+  .info-card2 p{
+  font-size: .9em;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  line-height: .8em; 
+  }
+
+  .footer-beneficios2 {
+	margin-top: 1em;
+	padding: 0.75rem;
+	/*border: 2px solid rgb(236 239 241);*/
+	display: flex;
+	flex-direction: column;
+	background-color: #B3E5FC;
+	opacity: 0.7;
+	box-shadow: 0 5px 10px #000;
+	/*background-color: rgba(0, 140, 255, 0.082);*/
+	/*#B3E5FC*/
+  }
+  
+
+
+/* container Titulo */
+.header-card3 {
+	height: 3em;
+	position: relative;
+	background-clip: border-box;
+	margin-top: 1em;
+	margin-left: .3em;
+	margin-right: .3em;
+	border-radius: 0.45em;
+	background: linear-gradient( #5fd9fe 80% ,#FFFFFF);
+	box-shadow: 0 10px 15px -3px rgba(33,150,243,.4),0 4px 6px -4px rgba(33,150,243,.4);
+  }
+
+
+ /*Titulo */
+ .header-card3 p{
+    display: flex;
+	justify-content: center;
+	color: #FFFFFF;
+	font-size: 1.1em;
+	flex-direction: row;
+  }
+.info3 {
+	text-align: center;
+	border: none;
+	padding: .5em 0em;
+	margin-left: auto;
+	margin-right: auto;
+	/*
+	text-align: center;
+	*/
+  }
+  
+  .info-card3 {
+	border: none;
+	padding: 0em .4em;
+  }
+
+  .info-card3 p{
+  font-size: .9em;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 2em; 
+  }
+
+  .footer-beneficios3 {
+	margin-top: 1em;
+	padding: 0.75rem;
+	/*border: 2px solid rgb(236 239 241);*/
+	display: flex;
+	flex-direction: column;
+	background-color: #B3E5FC;
+	opacity: 0.7;
+	box-shadow: 0 5px 10px #000;
+	/*background-color: rgba(0, 140, 255, 0.082);*/
+	/*#B3E5FC*/
+  }
 
 /* Beneficios card frontal*/
 .card-tarjeta .front h3 {
     position: absolute;
     bottom: 0;
     width: 100%;
-    line-height: 45px;
-    color: #FFFFFF;
-    background: rgba(0,0,0,.4); /*rgba(0,0,0,.4); */
-    text-align: center;
-	font-family: "Ubuntu", sans-serif;
+  line-height: 45px;
+  color: #FFFFFF;
+  background: rgba(0,0,0,.4); /*rgba(0,0,0,.4); */
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 1.1em;
-	
+  font-size: 1.1em;	
 	/*rgba(95,217,254,.9);*/
 }
-
-/*texto ges aplication card*/
-.card-tarjeta .back .title-back {
-	margin-top: 1.1em;
-	color: #FFFFFF;
-	text-align: center;
-	font-size: 1.3em;
-	font-family: "Ubuntu", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 1.1em;
-			
-}
-
-/* texto bajo card*/
-.card-tarjeta .back .link  {
-	border-top: solid 1px #f3f3f3;
-	font-size: .7em;
-	text-align: center;
-	line-height: 70px; /*altura de la linea */
-	font-family: "Ubuntu", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.back .tarjeta-1 p{
-	line-height: 2.2em;
-	font-family: "Ubuntu", sans-serif;
-  font-weight: 200;
-  font-style: normal;  
-  font-size: .8em;
-}
-
-
-.back .tarjeta-2 p{
-	font-size: .8em;
-	line-height:1.5em;
-	font-family: "Ubuntu", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.back .tarjeta-3 p{
-	font-size: .8em;
-	line-height: 2em;
-	font-family: "Ubuntu", sans-serif;
-  font-weight: 200;
-  font-style: normal; 
-}
-
-
-
-
-
 
 /*boton envio formulario*/
 /* btn ir a formulario*/ 
@@ -5542,9 +5634,54 @@ table{
 */
 /* pie de pagina */
 
+/*------ficha tecnica----*/
+
+/*ficha tecnica*/
+
+.compatibility{
+	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
+	width: 100%;
+	height: max-content;
+}
+
+.compatibility h3{	
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.1em;
+	border-bottom: 2px solid #FFFFFF;
+	padding: .5em 0em;	
+}
+
+.compatibility-grids .compatibility-right h4{
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	padding: .5em 0em;
+}
+.compatibility .compatibility-grids .compatibility-left h4{
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	padding: .5em 0em;
+	
+}
+.compatibility p{
+	line-height: 1.2em;
+	font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  
+}
+
+.compatibility .list-inline{
+	margin-top: .5em;
+}
 .pie-pagina .grupo-1{
     width: 100%;
-    max-width: 1200px;
+    height: max-content;
     margin: auto;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
@@ -7433,9 +7570,6 @@ form {
 
 }
 	
-
-
-
 
 @media (min-width:481px) and (max-width:639px){ 
 
