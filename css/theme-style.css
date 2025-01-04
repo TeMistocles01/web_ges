@@ -132,9 +132,8 @@ nav a#pull {
 	display: none;
 }
 
-
 /*Styles for screen 600px and lower*/
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width:799px) {
 
 	
 
@@ -148,19 +147,18 @@ nav a#pull {
 	margin: 1em 0em .5em 0em;
 }
 
-	nav {
-		position: relative;
-  		height: auto;
-  		float:none;	  
-  	}
-
-	/* modificar tamaño del menu*/
+	/* modificar tamaño del menu y colorear borde*/
   	nav ul {
   		width: 50%;
-  		display: block;
+  		display: none;
   		height: auto;
 		padding-top: 1em; 
 		border: solid 2px  #FFFFFF; 	
+  	}
+	  nav {
+		
+  		height: auto;
+  		float:none;	  
   	}
 
   	nav li {
@@ -174,16 +172,40 @@ nav a#pull {
 	  	width: 100%;
 	  	text-indent: 0px;
   	}
+
+	  nav a#pull {
+		display: block;
+		position: relative;
+		color: #5fd9fe;
+		text-align: right;
+		position: absolute;
+		top:.8em;
+	}
+
+	nav a#pull:after {
+		content:"";
+		background: url('nav-icon.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+
+	nav a#pull img{
+		margin-right:2%;
+	}
+	.top-nav ul li a {
+		border-bottom: 1px solid #FFFFFF;
+	}
+
+
+
 }
 
+@media screen and (min-width: 640px) and (max-width: 767px) {
 
-@media screen and (max-width: 640px) {
-
-	/* modificar tamaño del menu*/
-nav ul {
-	width: 70%;
-		
-}
 
 	/* 2 efecto trasparente*/
 .top-nav ul li.active a,
@@ -193,34 +215,70 @@ nav ul {
 	color: #708293;
 	border-radius: 10px;
 	margin: 1em 0em .5em 0em;
-	
 }
 
-	nav { 
+/* modificar tamaño del menu*/
+nav ul {
+	width: 70%;
+	display: none;
+  	height: auto;
+	padding-top: 1em; 
+	border: solid 2px  #FFFFFF;
+		
+}
+
+nav { 
+	
   		height: auto;
   		float:none;
-  	}
+}
   
-  	nav li {
+
+nav li {
+		display: inline;
   		width: 100%;
   		position: relative;
-  	}
-	
-  	
-	  .top-nav ul li a {
-		border-bottom: 1px solid #FFFFFF;
-	}
-  	nav a {
-	  	
+}
+		 
+nav a {
+		display: inline-block;
 	  	width: 100%;
 	  	text-indent: 0px;
   	}
-}
 
+	  nav a#pull {
+		display: block;
+		position: relative;
+		color: #5fd9fe;
+		text-align: right;
+		position: absolute;
+		top:.8em;
+	}
+
+	nav a#pull:after {
+		content:"";
+		background: url('nav-icon.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 100px;
+	}
+
+	nav a#pull img{
+		margin-right:2%;
+	}
+
+	.top-nav ul li a {
+		border-bottom: 1px solid #FFFFFF;
+	}
+
+}
 
 /*Styles for screen 515px and lower*/
 
-@media only screen and (max-width : 768px) {
+@media only screen and (min-width:481px) and  (max-width:639px) {
 
 	/* 2 efecto trasparente*/
 .top-nav ul li.active a,
@@ -232,20 +290,27 @@ nav ul {
 	margin: 1em 0em .5em 0em;
 }
 
-	nav {
-		position: relative;
-		height: auto;
-		float:none;
-	}
+	
 
-	nav ul {	
+	nav ul {
+		width: 50%;	
 		display: none;
-		height: auto;
-		margin:0;
-		background: #fff;
+  	height: auto;
+	padding-top: 1em; 
+	border: solid 2px  #FFFFFF;
 		
 	}
+	nav {
+		
+		height: auto;
+		float:none;	  
+	}
 
+	nav li {
+		display: inline;
+  		width: 100%;
+  		position: relative;
+  	}
 	
 	nav a#pull {
 		display: block;
@@ -271,23 +336,18 @@ nav ul {
 	.top-nav ul li a {
 		border-bottom: 1px solid #FFFFFF;
 	}
+
+	nav a {
+		display: inline-block;
+	  	width: 100%;
+	  	text-indent: 0px;
+  	}
 }
-
-
-
-
 
 /*Smartphone*/
-@media only screen and (max-width : 480px) {
+@media only screen and (min-width:321px) and  (max-width:480px) {
 	
-/* modificar tamaño del menu*/
-nav ul {
-	width: 70%;
-		
-}
-
-
-	/* 2 efecto trasparente*/
+/* 2 efecto trasparente*/
 .top-nav ul li.active a,
 .top-nav ul li a{
 	background-color: #FFFFFF;
@@ -295,15 +355,22 @@ nav ul {
 	color: #708293;
 	border-radius: 10px;
 	margin: 1em 0em .5em 0em;
-	
 }
 
+/* modificar tamaño del menu*/
+nav ul {
+	width: 70%;
+	display: none;
+  	height: auto;
+	padding-top: 1em; 
+	border: solid 2px  #FFFFFF;
+}
 	
-	nav {
+nav {
 		float:none;
 	}
 	
-	nav li {
+nav li {
 		display: block;
 		float: none;
 		width: 100%;
@@ -325,18 +392,18 @@ nav ul {
 		position: absolute;
 		top:.1em;
 	}
+
+	nav a {
+		display: inline-block;
+	  	width: 100%;
+	  	text-indent: 0px;
+  	}
 }
 
-
 /*Smartphone*/
-@media only screen and (max-width : 320px) {
+@media only screen and (min-width:0px) and (max-width:320px) {
 
-	/* modificar tamaño del menu*/
-	nav ul {
-		width: 70%;
-			
-	}
-
+	
 	/* 2 efecto trasparente*/
 .top-nav ul li.active a,
 .top-nav ul li a{
@@ -348,25 +415,62 @@ nav ul {
 	
 }
 
+/* modificar tamaño del menu*/
+nav ul {
+	width: 70%;
+	display: none;
+	height: auto;
+	padding-top: 1em;
+	border: solid 2px  #FFFFFF;
+		
+}
 
 
 	nav {
+		height: auto;
 		float:none;
 	}
 	
 	
 	nav li {
-		display: block;
-		float: none;
-		width: 100%;
+		display: inline;
+  		width: 100%;
+  		position: relative;
 	}
 
+	nav a {
+		display: inline-block;
+	  	width: 100%;
+	  	text-indent: 0px;
+  	}
 	
+	  nav a#pull {
+		display: block;
+		position: relative;
+		color: #5fd9fe;
+		text-align: right;
+		position: absolute;
+		top: .5em;
+	}
+
+
+	nav a#pull:after {
+		content:"";
+		background: url('nav-icon.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+
+	nav a#pull img{
+		margin-right:2%;
+	}
 	.top-nav ul li a {
-		
 		border-bottom: 1px solid #FFFFFF;
 	}
-	
 	
 	
 }
@@ -1400,6 +1504,7 @@ padding: 0em 0em 0em 0em;
 	font-family: "Ubuntu", sans-serif;
   	font-weight: 300;
     font-style: normal;
+
 	
 	
 }
@@ -1537,7 +1642,7 @@ border-radius: 1em;
 
 .icono-soborno{
 	width: 14em;
-	height:6em;
+	height:7em;
 	border-radius: 5px;
 }
 
@@ -1685,6 +1790,9 @@ border-radius: 1em;
 }
 
 
+
+
+
 /*  Sitios de implementacion */
 
 .fondo-img-catalogo{
@@ -1770,6 +1878,7 @@ border-radius: 1em;
 	border-radius: 10px;
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 	margin: 1.3em .5em;
+	
  }
 
 .container-img-multiple figure .img-card{
@@ -6544,13 +6653,6 @@ table{
 }
 
 
-
-
-
-	
-
-
-
 @media (min-width:640px) and (max-width:767px){
 
 
@@ -6583,8 +6685,9 @@ table{
 	   
 	 .container .header .container .marca_logo{
 		position: absolute;
-		top: 10px;
+		top: 20px;
 		left: 15px;
+	
 			
 		  }
 	
@@ -7621,12 +7724,10 @@ table{
 	
  }
 
- 
- .container .header .container .marca_logo{
-	position: absolute;
-top: 5px;
+.container .header .container .marca_logo{
+position: absolute;
+top: 18px;
 left: 10px;
-	
   }
 	
 .container .header .container .marca_logo .logo_ges{
@@ -9210,7 +9311,7 @@ width: 100%;
 
 	
 
-/* justificacion */
+/* De su crecion */
 .origen-container{
 	background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
 }
@@ -9408,17 +9509,23 @@ width: 100%;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	padding: 0em 0em;
-
-	
 }
 
-.container-4-img-flex .container-img-text {
-	width: 7em;
+
+
+.container-4-img-flex .container-img-text figure{
+	width: 7.5em;
 	height: 4.5em;
-	
-}
+	position:relative;
+	display: flex;
+	overflow: hidden;
+	border-radius: 7px;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	margin: .5em auto;
+ }
 
 .container-4-img-flex .container-img-text .capa .text-unico{
+	margin-top: 1.3em;
 	font-size: 1em;
 	color: #FFFFFF;
 	font-family: "Ubuntu", sans-serif;
@@ -9427,10 +9534,10 @@ width: 100%;
 }
 
 
+
+
+
  /* sitios de implementacion*/
-
-
-
 
  .fondo-img-catalogo{
 	background-image:url(../images/slide1.jpg);
@@ -9480,19 +9587,23 @@ width: 100%;
 }
 
 .img-derecha-columna{
+	width: 100%;
 	display: flex;
-	flex-direction: column;	
+	flex-direction: column;
+	padding: 0em 1.3em;	
 }
 
 .img-izquierda-columna{
+	width: 100%;
 	display: flex;
 	flex-direction: column;
+	padding: 0em 1.3em;
 }
 
 
  .container-img-multiple figure{
 	position:relative;
-	width: 18.5em;
+	width: 100%;
     height: 11.5em;
 	cursor: pointer;
 	overflow: hidden;
