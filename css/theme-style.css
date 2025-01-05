@@ -2006,15 +2006,14 @@ border-radius: 1em;
 
 
 .text-tabla1 p{
-	display: flex;
-	font-family: "Ubuntu", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-	font-size: 1.3em;
-	color: #FFFFFF;
+display: flex;
+font-family: "Ubuntu", sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size: 1.3em;
+color: #FFFFFF;
 	
 }
-
 
 
 .secc-mapa {
@@ -2051,11 +2050,9 @@ padding-bottom: .8em;
 }
 
 .container-tablas .tabla-container table{
-
 	width: 100%;
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 }
-
 
 .container-tablas .tabla-container table th{
 	text-align: center;
@@ -2079,19 +2076,13 @@ padding-bottom: .8em;
     font-weight: 300;
     font-style: normal; 
 	color: #FFFFFF;
-
 }
 
 
 /* tablas comparativas margen abajo*/
-
-
 .text-map2 {
-	text-align: center;
-	
+	text-align: center;	
 }
-
-
 
 
 /* parrafo tabla superior*/
@@ -2463,6 +2454,8 @@ color: #FFFFFF;
 	font-size: 1.4em;
 	flex-direction: row;
   }
+
+
 .info3 {
 	border: none;
 	padding: 1.5em 0em .5em 0em;
@@ -3038,7 +3031,7 @@ form {
 	width: 100%;
 	 /*background: linear-gradient( #5fd9fe 94% ,#FFFFFF);*/
 	position: relative;
-	padding: 1.5em 0em 0em 0em;
+	padding: .5em 0em 0em 0em;
 	background-color:  #5fd9fe;
 }
 
@@ -3092,6 +3085,7 @@ form {
 	font-size: 1.9em;
 	line-height: 1.4;
 }
+
 .download-right .texto-normal p{
 	font-size: 1.2em;
 	font-family: "Ubuntu", sans-serif;
@@ -3102,12 +3096,8 @@ form {
    }
    
    .download-right .texto-estrellas{
-	
 	padding: 1em 0em;
-	
    }
-
-
 
    .download-right .texto-estrellas p{
 	   font-size: 1.3em;
@@ -7691,6 +7681,8 @@ table{
 	} 
 	
 	}
+
+	
 @media (min-width:481px) and (max-width:639px){ 
 
 	
@@ -8144,13 +8136,19 @@ font-size: 1em;
 
 
 
- /* justificacion  */
+ /* De su creacion  */
 
- 
  .origen-container{
 	background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
 }
-
+/* tipografia para los sub titulos*/
+.origen-container .titles-principal h2{
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	  color: #FFFFFF;
+	  font-size: 1.4em;
+  }
 
  .container-center{
 	width: 100%;
@@ -8161,7 +8159,6 @@ font-size: 1em;
 	margin: 0em auto 1em auto;
 }
 
-
  .card-origen-center{
 	width:  90%;
 	height: max-content;
@@ -8171,18 +8168,27 @@ font-size: 1em;
 	transition: 3s;
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 	position: relative;
-	
 }
 
-.origen-container .container-center .titulo-origen-card p{
+.origen-container .titulo-origen-card p{
 	color: #FFFFFF;
-	  font-size: 1em;
+	  font-size: 1.2em;
+	 
+	 
   }
 
-   /*  cambia tamaño de card*/
-.origen-container .container-center .card-origen-center .container-center-origen .container-img-multiple figure{
-	width: 18em;
-	height: 9.5em;
+  /*container card central*/
+.origen-container .container-center-origen{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+   
+/*  cambia tamaño de card*/
+.origen-container .card-origen-center .container-center-origen .container-img-multiple figure{
+	width: 17em;
+	height: 9em;
 	position:relative;
 	display: flex;
 	overflow: hidden;
@@ -8193,26 +8199,27 @@ font-size: 1em;
 
 
 
+
 /* Text-grande titulo */
-.origen-container .container-center .card-origen-center .container-center-origen .container-img-multiple figure:hover > .capa .title-foto{
-	font-size: .9em;
+.origen-container .card-origen-center .container-center-origen .container-img-multiple figure:hover > .capa .title-foto{
+	font-size: 1em;
 	margin-top: 20px;
 	margin-bottom: 15px;
 	font-family: "Ubuntu", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-	
-}
+	font-weight: 300;
+	font-style: normal;
+	line-height: .1;
+  }
 
-.origen-container .container-center .card-origen-center .container-center-origen .container-img-multiple figure:hover > img{
+.origen-container .card-origen-center .container-center-origen .container-img-multiple figure:hover > img{
 	transform: scale(1.2);
 }
 
 
 /* texto pequeño imagen */
-.origen-container .container-center .card-origen-center .container-center-origen .container-img-multiple figure .capa p{
+.origen-container  .card-origen-center .container-center-origen .container-img-multiple figure .capa p{
 	color: #FFFFFF;
-	font-size: .8em;
+	font-size: .9em;
 	font-family: "Ubuntu", sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -8229,9 +8236,9 @@ font-size: 1em;
 	padding: .5em 0em;
 }
 
-.origen-container .container-center .titulo-origen-card p{
+.origen-container .titulo-origen-card p{
 	color: #FFFFFF;
-	  font-size: 1em;
+	  font-size: 1.2em;
   }
 
 
@@ -8239,6 +8246,7 @@ font-size: 1em;
 	text-align: center;
 	padding: .1em 0em;
 }
+
 .titles-principal h2{
 	font-size: 1.2em;
 }
@@ -8290,7 +8298,7 @@ font-size: 1em;
 }
 .container-2-card-origen .card-origen-par .titulo-origen-card p{
 	color: #FFFFFF;
-	font-size: medium;
+	font-size: 1.2em;
 }
 
 .icono-soborno{
@@ -8345,46 +8353,65 @@ font-size: 1em;
 
 
 
- /* catalogo*/
+ /* sitios de implementacion*/
 
-.features{
-	
-	height: 104em;
-	width: 100%;
-	background:url(../images/fondo_cards_321.png)repeat;
-}
-
-.fondo-img-catalogo{
-	height: 104em;
-	width: 100%;
+ .fondo-img-catalogo{
 	background-image:url(../images/slide1.jpg);
-	background-position: center center;
+	background-position: center center;  /*para movil*/
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;	
-}
-
-
-.features .img-derecha-columna{
+	background-attachment: fixed;
 	
-	margin-top: 29em;
-	width: 100%;
-	height: max-content;
-	padding-left: 1.8em;
-	padding-right: 1.8em;
-	position: relative;
 }
 
-.features .img-izquierda-columna{
+.titles-principal-sitios h2{
 	width: 100%;
-	height: max-content;
-	margin-top: 0em;
-	padding-left: 1.8em;
-	padding-right: 1.8em;
-	position: relative;
-	padding-bottom: 1em;
+	text-align: center;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	  color: #FFFFFF;
+	  background-color: #5F7D8B;
+	opacity: 85%;
+	padding: 1em 0em 1em 0em;
+	font-size: 1.3em;
+		
 }
 
+
+.fondo-img-catalogo .seleccione-sitios p{ 
+	background-color: #5F7D8B;
+	opacity: 75%;
+	text-align: center;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #FFFFFF;
+	font-size: 1em;
+	padding: .7em 1.3em;
+	border-radius: 5px;
+  }
+
+  .container-columnas{
+	width: 100%;
+	margin-top: 18em;
+	display: block;
+	justify-items: center;
+	justify-content: center;
+
+}
+
+.img-derecha-columna{
+	width: 70%;
+	display: flex;
+	flex-direction: column;	
+}
+
+.img-izquierda-columna{
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+}
 
  .container-img-multiple figure{
 	position:relative;
@@ -8395,22 +8422,15 @@ font-size: 1em;
 	border-radius: 10px;
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 	display: flex;
-	margin: 0em;
-	margin-bottom: .8em;
-	
-	
+	margin: .5em 0em;	
  }
-
 
  /* Text-grande titulo */
 .container-img-multiple figure:hover > .capa .title-foto{
 	font-size: 1.2em;
 	margin-top: 15px;
-	margin-bottom: 15px;
-	
+	margin-bottom: 15px;	
 }
-
-
 
 /* texto pequeño imagen */
 .container-img-multiple figure .capa p{
@@ -9355,7 +9375,7 @@ width: 100%;
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);	
 }
 
-/*pendiente*/
+/*container card central*/
 .origen-container .container-center-origen{
 	display: flex;
 	flex-direction: row;
@@ -9374,6 +9394,8 @@ width: 100%;
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 	margin: .5em 0em;
  }
+
+
 
 /* Text-grande titulo */
 .origen-container .card-origen-center .container-center-origen .container-img-multiple figure:hover > .capa .title-foto{
@@ -9583,58 +9605,52 @@ width: 100%;
 	display: block;
 	justify-items: center;
 	justify-content: center;
+	
 
 }
 
 .img-derecha-columna{
-	width: 100%;
+	width: 90%;
 	display: flex;
-	flex-direction: column;
-	padding: 0em 1.3em;	
+	flex-direction: column;	
 }
 
 .img-izquierda-columna{
-	width: 100%;
+	width: 90%;
 	display: flex;
 	flex-direction: column;
-	padding: 0em 1.3em;
 }
 
 
  .container-img-multiple figure{
 	position:relative;
-	width: 100%;
+	width:100%;
     height: 11.5em;
 	cursor: pointer;
 	overflow: hidden;
 	border-radius: 10px;
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 	display: flex;
-	margin: 0em;
-	margin-bottom: .8em;
-	margin-left: auto;
-	margin-right: auto;
+	margin: .5em 0em;
+	
  }
-
-
- 
 
  /* Text-grande titulo */
 .container-img-multiple figure:hover > .capa .title-foto{
-	font-size: 1.1em;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	font-family: "Ubuntu", sans-serif;
+  font-size: 1.1em;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #FFFFFF;
-	
+  color: #FFFFFF;	
 }
 
 
 .container-img-multiple figure:hover > img{
 	transform: scale(1.2);
 }
+
 
 /* texto pequeño imagen  derecha*/
 .img-derecha-columna .container-img-multiple  figure .capa .parrafo-card{
@@ -9645,8 +9661,6 @@ width: 100%;
     font-style: normal;
 	line-height: 1;
 	max-width: 220px;
-	
-	
 }
 
 /* texto pequeño imagen  Izquierda*/
@@ -10371,7 +10385,6 @@ width: 100%;
 	width: 100%;
 	position: relative;
 	
-
 	/*
 	
 	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
@@ -10409,6 +10422,7 @@ width: 100%;
  }
 
  */
+ 
  .download-right .grande{
 	color:#fff;
 	font-size: 1.3em;
