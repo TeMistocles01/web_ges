@@ -734,8 +734,7 @@
 	}
 }
 
-
-@media all and (min-width:769px) and (max-width:799px){
+@media all and (min-width:768px) and (max-width:799px){
 
 	.da-slider {
 		width: 350px;
@@ -754,8 +753,7 @@
 
 }
 
-
-@media all and (min-width:641px) and (max-width:768px){
+@media all and (min-width:641px) and (max-width:767px){
 
 	.da-slider {
 		width: 305px;
@@ -827,11 +825,7 @@
 
 }
 
-
-
-
-
- @media all and (min-width:321px) and (max-width:480px){
+ @media all and (min-width:320px) and (max-width:480px){
 
 	/* da-sider = carrucel puede contribuir con el mp */
 
@@ -885,9 +879,8 @@
 	
 }
 
-
-
- @media all and (min-width:0px) and (max-width:320px){
+/* 
+@media all and (min-width:0px) and (max-width:320px){
 
  	.da-slide p{
  		top:4em;
@@ -921,6 +914,12 @@
 		text-align: center;
 		width: 30%;
 		top:5em;
-		right: 110%; /*60%*/
+		right: 110%; 
 	}
  }
+
+
+
+
+*/
+

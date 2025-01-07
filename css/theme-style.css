@@ -35,6 +35,7 @@ p,th,td{
 }
 	*/
 /*-----start-header----*/
+
 .container .header .container .marca_logo {
 	position: absolute;
 	top: 10px;
@@ -46,7 +47,6 @@ p,th,td{
   width: 8em;
   height: 4em;
 }
-
 
 .top-header{
 	width: 100%;
@@ -135,18 +135,15 @@ nav a#pull {
 /*Styles for screen 600px and lower*/
 @media screen and (min-width: 768px) and (max-width:799px) {
 
-	
 
-	/* 2 efecto trasparente*/
-.top-nav ul li.active a,
-.top-nav ul li a{
-	background-color: #FFFFFF;
-	opacity: .7;
-	color: #708293;
-	border-radius: 10px;
-	margin: 1em 0em .5em 0em;
-}
-
+	.top-nav ul li.active a,
+	.top-nav ul li a{
+		background-color: #FFFFFF;
+		opacity: 75%;
+		color: #708293;
+		border-radius: 10px;
+		margin: 1em 0em 0em 0em;
+	}
 	/* modificar tamaño del menu y colorear borde*/
   	nav ul {
   		width: 50%;
@@ -204,22 +201,20 @@ nav a#pull {
 
 }
 
-@media screen and (min-width: 640px) and (max-width: 767px) {
+@media screen and (min-width: 641px) and (max-width: 767px) {
 
-
-	/* 2 efecto trasparente*/
-.top-nav ul li.active a,
-.top-nav ul li a{
-	background-color: #FFFFFF;
-	opacity: .7;
-	color: #708293;
-	border-radius: 10px;
-	margin: 1em 0em .5em 0em;
-}
+	.top-nav ul li.active a,
+	.top-nav ul li a{
+		background-color: #FFFFFF;
+		opacity: 75%;
+		color: #708293;
+		border-radius: 10px;
+		margin: 1em 0em 0em 0em;
+	}
 
 /* modificar tamaño del menu*/
 nav ul {
-	width: 70%;
+	width: 50%;
 	display: none;
   	height: auto;
 	padding-top: 1em; 
@@ -278,22 +273,19 @@ nav a {
 
 /*Styles for screen 515px and lower*/
 
-@media only screen and (min-width:481px) and  (max-width:639px) {
+@media only screen and (min-width:481px) and (max-width:640px) {
 
-	/* 2 efecto trasparente*/
-.top-nav ul li.active a,
-.top-nav ul li a{
-	background-color: #FFFFFF;
-	opacity: .7;
-	color: #708293;
-	border-radius: 10px;
-	margin: 1em 0em .5em 0em;
-}
 
-	
-
+	.top-nav ul li.active a,
+	.top-nav ul li a{
+		background-color: #FFFFFF;
+		opacity: 75%;
+		color: #708293;
+		border-radius: 10px;
+		margin: 1em 0em 0em 0em;
+	}
 	nav ul {
-		width: 50%;	
+		width: 60%;	
 		display: none;
   	height: auto;
 	padding-top: 1em; 
@@ -301,17 +293,19 @@ nav a {
 		
 	}
 	nav {
-		
-		height: auto;
 		float:none;	  
 	}
 
 	nav li {
-		display: inline;
-  		width: 100%;
-  		position: relative;
+		display: block;
+		float: none;
+		width: 100%;
   	}
 	
+	  .top-nav ul li a {
+		border-bottom: 1px solid #FFFFFF;
+	}
+
 	nav a#pull {
 		display: block;
 		position: relative;
@@ -320,46 +314,29 @@ nav a {
 		position: absolute;
 		top:.8em;
 	}
-	nav a#pull:after {
-		content:"";
-		background: url('nav-icon.png') no-repeat;
-		width: 30px;
-		height: 30px;
-		display: inline-block;
-		position: absolute;
-		right: 15px;
-		top: 10px;
-	}
-	nav a#pull img{
-		margin-right:2%;
-	}
-	.top-nav ul li a {
-		border-bottom: 1px solid #FFFFFF;
-	}
-
 	nav a {
 		display: inline-block;
 	  	width: 100%;
 	  	text-indent: 0px;
   	}
+	
 }
 
 /*Smartphone*/
 @media only screen and (min-width:320px) and  (max-width:480px) {
 	
-/* 2 efecto trasparente*/
-.top-nav ul li.active a,
-.top-nav ul li a{
-	background-color: #FFFFFF;
-	opacity: .7;
-	color: #708293;
-	border-radius: 10px;
-	margin: 1em 0em .5em 0em;
-}
-
+	.top-nav ul li.active a,
+	.top-nav ul li a{
+		background-color: #FFFFFF;
+		opacity: 75%;
+		color: #708293;
+		border-radius: 10px;
+		margin: 1em 0em 0em 0em;
+	}
+	
 /* modificar tamaño del menu*/
 nav ul {
-	width: 70%;
+	width: 80%;
 	display: none;
   	height: auto;
 	padding-top: 1em; 
@@ -369,21 +346,19 @@ nav ul {
 nav {
 		float:none;
 	}
+
 	
 nav li {
 		display: block;
 		float: none;
 		width: 100%;
 	}
+
 	.top-nav ul li a {
 		border-bottom: 1px solid #FFFFFF;
 	}
 
-	/*
-	nav li a {
-		border-bottom: 1px solid #576979;
-	}
-		*/
+	
 	nav a#pull {
 		display: block;
 		position: relative;
@@ -402,18 +377,6 @@ nav li {
 
 /*Smartphone*/
 @media only screen and (min-width:0px) and (max-width:319px) {
-
-	
-	/* 2 efecto trasparente*/
-.top-nav ul li.active a,
-.top-nav ul li a{
-	background-color: #FFFFFF;
-	opacity: .7;
-	color: #708293;
-	border-radius: 10px;
-	margin: 1em 0em .5em 0em;
-	
-}
 
 /* modificar tamaño del menu*/
 nav ul {
@@ -3603,7 +3566,7 @@ width: 100%;
 
 
 /*--responsive design--*/
-@media (min-width:1024px) and (max-width:1200px){
+@media (min-width:1025px) and (max-width:1200px){
 
 
 /*acomodar menu*/ 
@@ -4707,7 +4670,7 @@ p.cousel_demo{
 }
 
 
-@media (min-width:800px) and (max-width:1023px){
+@media (min-width:800px) and (max-width:1024px){
 	
 /* start bloke slider*/
 .container-text-slider-izquierda{
@@ -5853,12 +5816,12 @@ table{
 	.container .header .container .marca_logo{
 		position: absolute;
 	top: 15px;
-	left: 10px;
+	left: 20px;
 		
 	  }
 	.container .header .container .marca_logo .logo_ges{
 		width: 5em;
-		height: 3em;
+		height:2.5em;
 		
 	  }
 	.header {
@@ -6645,7 +6608,7 @@ table{
 }
 
 
-@media (min-width:640px) and (max-width:767px){
+@media (min-width:641px) and (max-width:767px){
 
 
 	/* start bloke slider*/
@@ -7685,14 +7648,22 @@ table{
 	}
 
 	
-@media (min-width:481px) and (max-width:639px){ 
+@media (min-width:481px) and (max-width:640px){ 
 
-
+	.header {
+		position: fixed;
+		z-index: 999;
+		right: 0;
+		left: 0;
+	 }
+	
 
 /* start bloke slider*/
 .container-text-slider-izquierda{
 	width: 70%;
+	
 }
+
 
 .container-text-slider-derecha{
 	width: 30%;
@@ -7709,10 +7680,11 @@ table{
 	
  }
 
+
 .container .header .container .marca_logo{
 position: absolute;
 top: 18px;
-left: 10px;
+left: 18px;
   }
 	
 .container .header .container .marca_logo .logo_ges{
@@ -7721,33 +7693,13 @@ left: 10px;
 	
   }
 
-.header {
-	position: fixed;
-	z-index: 999;
-	right: 0;
-	left: 0;
- }
-	.top-nav ul li.active a, .top-nav ul li a:hover {
-		color: #2C3E50;
-	  }
-	.top-nav ul li a {
-		color: #2C3E50;
-		padding: 0em 0;
-	}
-
-	
-	nav ul {
-		margin-top: .8em;
-	}
-
-
  /*tabs*/
 .callbacks_tabs{
 	list-style: none;
 	position: absolute;
 	top: 78%;
 	z-index: 999;
-	left: 27%;
+	left: 41%;
 	
 }
  
@@ -7861,7 +7813,6 @@ font-size: 1em;
 
 }
 
- 
 
 /* funciones destacadas*/
 .features-Funciones-Destacadas{
@@ -8046,7 +7997,7 @@ font-size: 1em;
 	/*background-color: red;*/
 }
 
-   .feature-left .slider .da-slider1 .da-slide #llamada-img{
+.feature-left .slider .da-slider1 .da-slide #llamada-img{
 	width: 4em;
 	height: 3em;
 	}
@@ -8055,6 +8006,7 @@ font-size: 1em;
 .slider .da-slider1 .slide-text p{
 	line-height: 1.4em;
 }
+
 
 
  /* De su creacion  */
@@ -8104,12 +8056,13 @@ font-size: 1em;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
    
 /*  cambia tamaño de card*/
 .origen-container .card-origen-center .container-center-origen .container-img-multiple figure{
-	width: 17em;
+	width: 16em;
 	height: 9em;
 	position:relative;
 	display: flex;
@@ -8118,8 +8071,6 @@ font-size: 1em;
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 	margin: .5em 0em;
  }
-
-
 
 
 /* Text-grande titulo */
@@ -8131,6 +8082,7 @@ font-size: 1em;
 	font-weight: 300;
 	font-style: normal;
 	line-height: .1;
+	
   }
 
 .origen-container .card-origen-center .container-center-origen .container-img-multiple figure:hover > img{
@@ -8149,6 +8101,7 @@ font-size: 1em;
 	width: 100%;
 	max-width: 220px;
 	margin: auto;
+	
 	
 }
 
@@ -8219,7 +8172,7 @@ font-size: 1em;
 }
 
 .icono-soborno{
-	width: 11em;
+	width: 14em;
 	height:6em;
 	border-radius: 5px;
 }
@@ -8268,8 +8221,8 @@ font-size: 1em;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;
-	margin: 1em 0em;
+	justify-content: space-evenly;
+	margin: .3em 0em;
 }
 
 .card-origen-par .text-card-margin-button p{
@@ -8277,16 +8230,17 @@ font-size: 1em;
 	line-height: .9;
 	text-align: center;
 }
+
 /* pendiente1*/
 .container-4-img-flex .container-img-text figure{
-	width: 5.7em;
+	width: 11em;
 	height: 5em;
 	position:relative;
 	display: flex;
 	overflow: hidden;
 	border-radius: 7px;
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
-	margin: .2em .2em;
+	margin: .3em .3em;
  }
 
  .container-4-img-flex .container-img-text .capa .text-unico{
@@ -8508,7 +8462,7 @@ line-height: 1.2;
 	border-radius: 5px;
 	opacity: 85%;
 	float: left;
-	padding: .2em .2em 0em .2em;
+	padding: .4em .4em 0em .4em;
 	
 }
 
@@ -8539,7 +8493,7 @@ color: #FFFFFF;
 	border-radius: 5px;
 	opacity: 85%;
 	float: right;
-	padding: .2em .2em 0em .2em;
+	padding: .4em .4em 0em .4em;
 }
 
 .container-tablas .tabla-container .tabla-container-derecha p{	
@@ -8592,8 +8546,8 @@ color: #FFFFFF;
 
 .container-tarjeta .card-tarjeta{
     position: relative;
-    width: 18em;
-    height: 29em;
+    width: 20em;
+    height: 27em;
     margin: 5px;
 }
  
@@ -9329,14 +9283,7 @@ form {
 	line-height: 1em;
  }
 
-	.top-nav ul li.active a, .top-nav ul li a:hover {
-		color: #2C3E50;
-	  }
-	.top-nav ul li a {
-		color: #2C3E50;
-		padding: 0em 0;
-	}
-
+	
 	.card-origen-center .container-box-animate{
 		width: 100%;
 		padding: 0em 0em;
@@ -9403,22 +9350,21 @@ form {
 	z-index: 999;
 	left: 17%;
 }
- 
-
 
 /* Que es GES */
+
 .container-definicion{
 	width: 100%;
 	height: max-content;
 	background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
 	padding: .5em 0em .7em 0em;
 }
+
 .container-definicion .titles-principal{
 	width: 100%;
 	text-align: center;
 	margin-top: 0em;		
 }
-
 
 /* tipografia para los sub titulos*/
 
