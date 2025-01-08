@@ -8075,13 +8075,12 @@ font-size: 1em;
 
 /* Text-grande titulo */
 .origen-container .card-origen-center .container-center-origen .container-img-multiple figure:hover > .capa .title-foto{
-	font-size: 1em;
+	font-size: .9em;
 	margin-top: 20px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 300;
 	font-style: normal;
-	line-height: .1;
 	
   }
 
@@ -8151,6 +8150,7 @@ font-size: 1em;
 	position: relative;
 	margin: 1em auto;
 }
+
 
 .container-2-card-origen .card-origen-par p{
 	text-align: center;
@@ -8234,7 +8234,7 @@ font-size: 1em;
 /* pendiente1*/
 .container-4-img-flex .container-img-text figure{
 	width: 11em;
-	height: 5em;
+	height: 6em;
 	position:relative;
 	display: flex;
 	overflow: hidden;
@@ -8245,7 +8245,7 @@ font-size: 1em;
 
  .container-4-img-flex .container-img-text .capa .text-unico{
 	margin-top: 2em;
-	font-size: 1em;
+	font-size: 1.1em;
 	color: #FFFFFF;
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 300;
@@ -8450,7 +8450,6 @@ line-height: 1.2;
     font-weight: 300;
     font-style: normal; 
 	color: #FFFFFF;
-
 }
 
 /* parrafo tabla superior*/
@@ -8463,7 +8462,6 @@ line-height: 1.2;
 	opacity: 85%;
 	float: left;
 	padding: .4em .4em 0em .4em;
-	
 }
 
 .container-tablas .tabla-container .tabla-container-izquierda p{	
@@ -8472,16 +8470,15 @@ font-weight: 300;
 font-style: normal;
 font-size: .9em;
 color: #FFFFFF;
-		
 }
 
 .container-tablas .tabla-container .tabla-container-izquierda .list2{
-	font-size: .8em;
-	margin-top: .1em;
-	font-family: "Ubuntu", sans-serif;
-  font-weight: 300;
-  font-style: normal; 
-  color: #FFFFFF;	
+ font-size: .8em;
+ margin-top: .1em;
+ font-family: "Ubuntu", sans-serif;
+ font-weight: 300;
+ font-style: normal; 
+ color: #FFFFFF;	
 }
 
 
@@ -8993,9 +8990,9 @@ form {
 
 
 .download{
-	background: linear-gradient( #5fd9fe 90%,#FFFFFF);
+	background: linear-gradient( #5fd9fe 97%,#FFFFFF);
 	width: 100%;
-	padding: 1em 0em;	
+	padding: 2em 0em;	
 }
 
 /*texto*/
@@ -9170,9 +9167,9 @@ form {
 
 /*ficha tecnica*/
 .compatibility{
-	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
+	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 	width: 100%;
-	padding: 1.5em 0em;
+	padding: 1em 0em;
 
 }
 
