@@ -133,7 +133,7 @@ nav a#pull {
 }
 
 /*Styles for screen 600px and lower*/
-@media screen and (min-width: 768px) and (max-width:799px) {
+@media screen and (min-width:768px) and (max-width:799px) {
 
 
 	.top-nav ul li.active a,
@@ -201,7 +201,7 @@ nav a#pull {
 
 }
 
-@media screen and (min-width: 641px) and (max-width: 767px) {
+@media screen and (min-width:641px) and (max-width:767px) {
 
 	.top-nav ul li.active a,
 	.top-nav ul li a{
@@ -336,7 +336,7 @@ nav a {
 	
 /* modificar tamaño del menu*/
 nav ul {
-	width: 80%;
+	width: 78%;
 	display: none;
   	height: auto;
 	padding-top: 1em; 
@@ -1702,14 +1702,14 @@ border-radius: 1em;
 	
   }  
   
-
+/*
 .card-izquierda:hover .back {
 	cursor: pointer;
     transform: perspective(900px) rotateY(360deg);
-	/*transform: scale(1.1);*/
+	
 	border: 4px solid #FFFFFF;
 }
-
+*/
 .compatibility-right .pie-card-tex-center{
 	text-align: center;
 }
@@ -9596,6 +9596,10 @@ form {
 
 
 
+
+
+
+
 /* coadyubar con el ministerio publico*/
 .Share-instantly{
 	background: linear-gradient( #5fd9fe 97% ,#FFFFFF);
@@ -9690,6 +9694,7 @@ form {
 /* De su crecion */
 .origen-container{
 	background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
+	padding: 1em 0em .8em 0em;
 }
 
 /* tipografia para los sub titulos*/
@@ -9877,7 +9882,7 @@ form {
  
   
 
-  .container-4-img-flex{
+.container-4-img-flex{
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -9912,8 +9917,15 @@ form {
 	font-style: normal;
 }
 
-
-
+.card-origen-center:hover{	
+	box-shadow: 0 10px 20px #FFFFFF;
+	transition: 2s;
+}
+.card-origen-par:hover{
+	box-shadow: 0 10px 20px #FFFFFF;
+	transition: 2s;
+	
+}
 
 
  /* sitios de implementacion*/
@@ -10728,17 +10740,10 @@ width: 100%;
 
 
 .download{
-	background: linear-gradient( #5fd9fe 90%,#FFFFFF);
-	padding: 1em 0;
+	background: linear-gradient( #5fd9fe 97%,#FFFFFF);
+	padding: 1em 0em 2em 0em;
 	width: 100%;
 	position: relative;
-	
-	/*
-	
-	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
-	padding: 7em 0;
-	
-	*/
 }
 
 .download-right{
@@ -10951,7 +10956,7 @@ width: 100%;
 /* ficha tecnica*/
 
 .compatibility{
-	background: linear-gradient( #5fd9fe 97% ,#FFFFFF);
+	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 	width: 100%;
 	height: max-content;
 
