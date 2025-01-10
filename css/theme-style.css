@@ -5960,7 +5960,7 @@ table{
 .container-card-funciones .features-grid .card-container {
    width: 20em;
    display: flex;
-   height: 420px;
+   height: 23em;
    position: relative;
    border-radius: 25px;
    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -6006,9 +6006,17 @@ table{
 
 
 
-	  /* justificacion*/
+	  /* De su creacion*/
+
+	  .origen-container{
+		width: 100%;
+		height: max-content;
+		background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
+		padding: .5em 0em 1em 0em;
+		
+	}
+
 .titles-principal{
-	
 		text-align: center;
 		padding: 0em 0em;
 	}
@@ -6145,8 +6153,8 @@ table{
 	}
 
 	.icono-soborno{
-		width: 11em;
-		height:6em;
+		width: 14em;
+		height:8em;
 		border-radius: 5px;
 	}
 
@@ -6254,7 +6262,7 @@ table{
 /*  cambia tamaño de card*/
 .container-img-multiple figure{
 	width: 15em;
-	height: 11em;
+	height: 12em;
 	position:relative;
 	display: flex;
 	cursor: pointer;
@@ -6267,22 +6275,36 @@ table{
 
 /* Text-grande titulo */
 .container-img-multiple figure:hover > .capa .title-foto{
-	font-size: large;
+	font-size: 1.1em;
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
 
 
-/* texto pequeño imagen */
-.container-img-multiple figure .capa p{
+/* texto pequeño imagen  derecha*/
+.img-derecha-columna .container-img-multiple  figure .capa .parrafo-card{
 	color: #FFFFFF;
-	font-size: smaller;
-	line-height: 1;
-	width: 100%;
+	font-size: .9em;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	line-height: .7;
 	max-width: 220px;
-	margin: auto;
-	
 }
+
+/* texto pequeño imagen  Izquierda*/
+.img-izquierda-columna .container-img-multiple  figure .capa .parrafo-card{
+	color: #FFFFFF;
+	font-size: .9em;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	line-height: .7;
+	max-width: 220px;
+}
+
+
+
 
 
 
@@ -6290,20 +6312,43 @@ table{
 
 /*Resultados y eficiancia */
 
-.text-tabla {
+.titles-principal-estadistica  h2{
+	width: 100%;
 	text-align: center;
-	padding: .5em 0em;	
-}
-
-
-.text-tabla p{
+	font-size: 1.5em;
 	font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-	font-size: 1.4em;
+	font-weight: 300;
+	font-style: normal;
 	color: #FFFFFF;
-	display: block;
+	background-color: #5F7D8B;
+	opacity: 85%;
+	padding: 1em 0em 1em 0em;
 }
+
+.text-tabla1 {	
+	display: flex;
+	width: 80%;
+	background-color: #5F7D8B;
+	justify-content: center;
+	/*85b0d3*/
+	border-radius: 5px;
+	opacity: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: .5em 0em ;	
+}
+
+.text-tabla1 p{
+text-align: center;
+display: flex;
+font-family: "Ubuntu", sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size: 1.1em;
+color: #FFFFFF;
+line-height: 1.2;
+}
+
 
 .container-tablas{
 	display: flex;
@@ -6389,6 +6434,7 @@ table{
   float:right;
  }
 
+ /* celular bajo*/
  .feature-right span{
 	background-size:63%;
 	width: 255px;
@@ -6934,7 +6980,7 @@ table{
 	
 	
 	
-	 /* justificacion */
+	 /* De su creacion */
 	 .origen-container{
 		background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
 	}
@@ -7573,8 +7619,8 @@ table{
 	position: relative;
 	background-clip: border-box;
 	margin-top: 1em;
-	margin-left: .2em;
-	margin-right: .2em;
+	margin-left: 1em;
+	margin-right: 1em;
 	border-radius: 0.45em;
 	background: linear-gradient( #5fd9fe 70% ,#FFFFFF);
 	box-shadow: 0 10px 15px -3px rgba(33,150,243,.4),0 4px 6px -4px rgba(33,150,243,.4);
@@ -7608,16 +7654,16 @@ table{
   }
 
   .info-card1 p{
-	font-size: .9em;
+	font-size: 1em;
 	font-family: "Ubuntu", sans-serif;
   font-weight: 200;
   font-style: normal;
-  line-height: 3.1em; 
+  line-height: 3.2em; 
   }
 
 
   .footer-beneficios1 {
-	margin-top: 3.5em;
+	margin-top: .5em;
 	padding: 0.75rem;
 	border: 2px #FFFFFF solid;
 	/*border: 2px solid rgb(236 239 241);*/
@@ -7636,8 +7682,8 @@ table{
 	position: relative;
 	background-clip: border-box;
 	margin-top: 1em;
-	margin-left: .2em;
-	margin-right: .2em;
+	margin-left: 1em;
+	margin-right: 1em;
 	border-radius: 0.45em;
 	background: linear-gradient( #5fd9fe 70% ,#FFFFFF);
 	box-shadow: 0 10px 15px -3px rgba(33,150,243,.4),0 4px 6px -4px rgba(33,150,243,.4);
@@ -7670,15 +7716,15 @@ table{
 
 
   .info-card2 p{
-  font-size: .9em;
+  font-size: 1em;
   font-family: "Ubuntu", sans-serif;
   font-weight: 200;
   font-style: normal;
-  line-height: 1.7em; 
+  line-height: 1.5em; 
   }
 
   .footer-beneficios2 {
-	margin-top: 1.3em;
+	margin-top: .8em;
 	padding: 0.75rem;
 	/*border: 2px solid rgb(236 239 241);*/
 	display: flex;
@@ -7698,8 +7744,8 @@ table{
 	position: relative;
 	background-clip: border-box;
 	margin-top: 1em;
-	margin-left: .2em;
-	margin-right: .2em;
+	margin-left: 1em;
+	margin-right: 1em;
 	border-radius: 0.45em;
 	background: linear-gradient( #5fd9fe 70% ,#FFFFFF);
 	box-shadow: 0 10px 15px -3px rgba(33,150,243,.4),0 4px 6px -4px rgba(33,150,243,.4);
@@ -7730,11 +7776,11 @@ table{
 
 
   .info-card3 p{
-  font-size: .9em;
+  font-size: 1em;
   font-family: "Ubuntu", sans-serif;
   font-weight: 200;
   font-style: normal;
-  line-height: 1.9em; 
+  line-height: 1.5em; 
   }
 
   .footer-beneficios3 {
@@ -7749,15 +7795,6 @@ table{
 	/*background-color: rgba(0, 140, 255, 0.082);*/
 	/*#B3E5FC*/
   }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -7795,8 +7832,8 @@ table{
 	
 	/*abquirir*/
 	.download{
-		background: linear-gradient( #5fd9fe 90%,#FFFFFF);
-		padding: 1em 0;
+		background: linear-gradient( #5fd9fe 95%,#FFFFFF);
+		padding: 1em 0em 2em 0em;
 		width: 100%;
 		position: relative;
 		
@@ -7870,9 +7907,9 @@ table{
 	/*ficha tecnica*/
 	
 	.compatibility{
-		background: linear-gradient( #5fd9fe 96% ,#FFFFFF);
+		background: linear-gradient( #5fd9fe 93% ,#FFFFFF);
 		width: 100%;
-		height: 30em;
+		height: max-content;
 	
 	}
 	
@@ -9004,7 +9041,7 @@ color: #FFFFFF;
   }
 
   .footer-beneficios2 {
-	margin-top: 1.3em;
+	margin-top: 1.9em;
 	padding: 0.75rem;
 	/*border: 2px solid rgb(236 239 241);*/
 	display: flex;
@@ -9080,8 +9117,6 @@ color: #FFFFFF;
 	/*#B3E5FC*/
   }
  
-
-
 /* Modal bajando*/
 .modal_container{
     margin: auto;
@@ -9679,7 +9714,8 @@ form {
 	font-weight: 400;
 	font-style: normal;
 	color: #FFFFFF;
-	font-size: 1.3em;
+	font-size: 1.4em;
+	
 	
 	}
 
@@ -9804,7 +9840,7 @@ form {
 
 	.features-Funciones-Destacadas .seleccione p{
 		color: #FFFFFF;
-		font-size: 1.1em;
+		font-size: 1.2em;
 		font-family: "Ubuntu", sans-serif;
 		font-weight: 300;
 		font-style: normal;
@@ -9829,7 +9865,7 @@ form {
 	 }
 
 
-	 .container-card-funciones .features-grid .card-container {
+.container-card-funciones .features-grid .card-container {
 		width: 18em;
 		display: flex;
 		height: 24em;
@@ -10218,7 +10254,7 @@ form {
 	  background-color: #5F7D8B;
 	opacity: 85%;
 	padding: 1em 0em 1em 0em;
-	font-size: 1.3em;
+	font-size: 1.4em;
 		
 }
 
@@ -10230,7 +10266,7 @@ form {
 	font-weight: 300;
 	font-style: normal;
 	color: #FFFFFF;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	padding: .5em 1em;
 	border-radius: 5px;
   }
@@ -10345,13 +10381,13 @@ form {
 
 .text-tabla1 p{
 text-align: center;
-	display: flex;
-	font-family: "Ubuntu", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-	font-size: 1.1em;
-	color: #FFFFFF;
-	line-height: 1.2;
+display: flex;
+font-family: "Ubuntu", sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size: 1.1em;
+color: #FFFFFF;
+line-height: 1.2;
 	
 }
 
@@ -10514,7 +10550,7 @@ color: #FFFFFF;
 	color: #FFFFFF;
 }
 .container-beneficios .titles-principal .seleccione-targeta p{
-	font-size: 1.1em;
+	font-size: 1.2em;
 	color: #ffffff;
 	font-weight: 300;
 }
@@ -10557,11 +10593,7 @@ color: #FFFFFF;
 	/*rgba(95,217,254,.9);*/
 }
 
-.container-beneficios .titles-principal .seleccione-targeta p{
-	font-size: 1.1em;
-	color: #ffffff;
-	font-weight: 300;
-}
+
 
 /* Textos card */
   

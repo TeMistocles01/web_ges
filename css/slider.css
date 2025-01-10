@@ -750,6 +750,14 @@
 		float: inline-start;
 		/*color: #AEAEAE;*/
 	}
+	/*Imagen  youtube*/
+
+	.da-slider .da-img{
+		text-align: center;
+		width: 30%;
+		top:8em;
+		right: 110%; /*60%*/
+	}
 
 }
 
@@ -762,6 +770,14 @@
 		
 		
     }
+	/*Imagen  youtube*/
+
+	.da-slider .da-img{
+		text-align: center;
+		width: 30%;
+		top:9em;
+		right: 110%; /*60%*/
+	}
 
 	/* slider bajo*/
 	.da-slider1{
