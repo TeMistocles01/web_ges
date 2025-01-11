@@ -1165,7 +1165,7 @@ padding: 0em 0em 0em 0em;
 
 .Share-instantly{
 	background: linear-gradient( #5fd9fe 80% ,#FFFFFF);
-	padding: 2em 0em;
+	padding: 1em 0em;
 	/*box-shadow: inset 0 0 20px #FFFFFF;*/
 }
 
@@ -1184,8 +1184,8 @@ padding: 0em 0em 0em 0em;
 
 }
 .Share-instantly-left span{
-	width:350px;
-	height:520px;
+	width:360px;
+	height:550px;
 	display:block;
 	background:url(../images/Izquierdo-nuevo.png) no-repeat 0px 0px;
 }
@@ -1230,7 +1230,7 @@ padding: 0em 0em 0em 0em;
 /*------ Llamada de emergencia----*/
 .feature{
 	background: linear-gradient( #5fd9fe 80% ,#FFFFFF);
-	padding: 2em 0em;
+	padding: 1.5em 0em;
 }
 
 .feature .titles-share{
@@ -1257,13 +1257,25 @@ padding: 0em 0em 0em 0em;
 }
 
 .feature-right span{
-	width:350px;
-	height:570px;
+	width:300px;
+	height:555px;
 	display:block;
 	background:url(../images/celular-derecho-nuevo.png) no-repeat 0px 0px;
 }
 
+#llamada-img{
+	width: 5em;
+	height: 5em;
+}
+#cuadrantes-img{
+	width: 6em;
+	height: 4em;
 
+}
+#policia-img{
+	width: 6em;
+	height: 4em;	
+}
 
 .da-slider1{
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
@@ -1720,18 +1732,24 @@ border-radius: 1em;
 
 
 /*  Sitios de implementacion */
-
+/*https://www.freecodecamp.org/espanol/news/como-centrar-una-imagen-vertical-y-horizontalmente-con-css/ */
 .fondo-img-catalogo{
-	background-image:url(../images/slide1.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	
-
+	width: 100%; 
+	height: 47em;
+		
 }
+
+
+img{
+width: 100%;
+height: 47em;
+}
+
 
 .titles-principal-sitios{
 	padding-top: 1em;
+	position: relative;
+	margin-top: -46em;
 }
 
 
@@ -1744,12 +1762,12 @@ border-radius: 1em;
 	  color: #FFFFFF;
 	  background-color: #5F7D8B;
 	opacity: 85%;
-	padding: .5em 0em .5em 0em;
+	padding: .8em 0em .8em 0em;
 		
 }
 
 .seleccione-sitios{
-	margin-top: .7em;
+	margin-top: 1em;
 	width: 100%;
 	text-align: center;
 }
@@ -1762,7 +1780,7 @@ border-radius: 1em;
   font-style: normal;
   color: #FFFFFF;
   font-size: 1.3em;
-  padding: .7em 1.3em;
+  padding: .5em 1.3em;
   border-radius: 5px;
 }
 
@@ -1803,7 +1821,7 @@ border-radius: 1em;
 	overflow: hidden;
 	border-radius: 10px;
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
-	margin: 1.3em .5em;
+	margin: .5em .5em;
 	
  }
 
@@ -1835,7 +1853,7 @@ border-radius: 1em;
 /* Text-grande titulo */
 .container-img-multiple figure:hover > .capa .title-foto{
 	font-size: 1.3em;
-	margin-top: 10px;
+	margin-top: 15px;
 	margin-bottom: 10px;
 	font-family: "Ubuntu", sans-serif;
   font-weight: 300;
@@ -2115,6 +2133,11 @@ color: #FFFFFF;
 	display: flex;  /*para que los elementos se posicionen en horizontal uno al lado de otro*/
 	justify-content: center;
 	margin-bottom: 1em;
+}
+.container-beneficios .titles-principal .seleccione-targeta p{
+	font-size: 1.3em;
+	color: #ffffff;
+	font-weight: 300;
 }
 
 
@@ -2986,16 +3009,20 @@ form {
 	background:url(../images/storeplay-web-logo.png) no-repeat 0px 0px;
 }
 
+/*
 .download-left span:hover{
 	border-radius:50%;
 	-webkit-border-radius:20%;
-	/*box-shadow: 0px 0px 15px 15px #777777;*/
+	box-shadow: 0px 0px 15px 15px #777777;
 	 -webkit-box-shadow: 0px 0px 15px 15px #5F7D8B;       
 	
 	transform: rotate(360deg);
 	-webkit-transform: rotate(360deg);
 	transition: 400ms;
 	}
+*/
+
+
 
 .download-left .sombra{
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
@@ -3669,7 +3696,7 @@ nav a#pull {
   font-weight: 400;
   font-style: normal;
 	color: #FFFFFF;
-	font-size: 1.5em;
+	font-size: 1.4em;
 }
 
 
@@ -3783,7 +3810,7 @@ nav a#pull {
 	font-weight: 300;
 	font-style: normal;
 	color: #FFFFFF;
-	font-size: 1.5em;		
+	font-size: 1.4em;		
   }
   
   .features-Funciones-Destacadas .sub-titulo{
@@ -3808,7 +3835,11 @@ nav a#pull {
 			font-style: normal;
 		}
 
-		
+		.container-card-funciones .features-grid .text-funciones h3{
+			font-size: 1.3em;
+			font-weight: 300;
+
+		}
 		
 		 /*louder9*/
 .loader9 {
@@ -3883,9 +3914,9 @@ nav a#pull {
 
 }
 
-.Share-instantly .container .Share-instantly-right .titles-share{
-	margin-bottom: 1em;
-	margin-top: 0em;
+.Share-instantly .container .Share-instantly-right .titles-share h2{
+	font-size: 1.5em;
+	font-weight: 300;
 }
 
  /* configure llamadas de emergencia */
@@ -3903,7 +3934,11 @@ nav a#pull {
  .feature-right span{
 	background-position:70px 0;	
 }
+.feature .container .feature-left .titles-share h2{
+	font-size: 1.5em;
+	font-weight: 300;
 
+}
 
 /*De su creacion*/
 .origen-container{
@@ -3917,7 +3952,7 @@ nav a#pull {
 }
 
 .titles-principal h2{
-	font-size: 1.5em;	
+	font-size: 1.4em;	
 }
 
 .card-origen-center{
@@ -4039,13 +4074,24 @@ nav a#pull {
 /* sitios de implementacion*/
 
 .fondo-img-catalogo{
-	background-image:url(../images/slide1.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center center;
+	width: 100%;
+    height: 45em;
+	/*height: 50em;*/
 	
+	
+}
 
+
+img{
+width: 100%;
+height: 45em;
+}
+
+
+.titles-principal-sitios{
+	padding-top: 2em;
+	position: relative;
+	margin-top: -46em;
 }
 
 .titles-principal-sitios h2{
@@ -4054,14 +4100,29 @@ nav a#pull {
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	color: #FFFFFF;
 	background-color: #5F7D8B;
 	opacity: 85%;
-	padding: 1em 0em 1em 0em;
+	padding: .7em 0em .7em 0em;
 		
 }
-
+.seleccione-sitios{
+	margin-top: .5em;
+	width: 100%;
+	text-align: center;
+}
+.seleccione-sitios p{ 
+	background-color: #5F7D8B;
+	opacity: 75%;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	padding: .3em .5em;
+	border-radius: 5px;
+  }
 
 /* Text-grande titulo */
 .container-img-multiple figure:hover > .capa .title-foto{
@@ -4083,7 +4144,7 @@ nav a#pull {
 /*  cambia tamaño de card*/
 .container-img-multiple figure{
 	width: 18em;
-	height: 14em;
+	height: 11em;
 	position:relative;
 	display: flex;
 	cursor: pointer;
@@ -4093,6 +4154,17 @@ nav a#pull {
 	margin: .4em;
  }
 
+/* Text-grande titulo */
+.container-img-multiple figure:hover > .capa .title-foto{
+	font-size: 1.2em;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #FFFFFF;
+	
+}
 
 
 
@@ -6597,9 +6669,9 @@ table{
 
  
 .Share-instantly-left span{
-	background-size:65%;
+	background-size:67%;
 	width: 238px;
-	height: 330px;	
+	height: 340px;	
 	margin-top: 1em;
  }
 
@@ -10430,7 +10502,7 @@ form {
 }
 
 
-.icono-soborno{
+.container-logo-coorupcion .icono-soborno{
 	width: 11em;
 	height:6em;
 	border-radius: 5px;
@@ -10530,8 +10602,8 @@ form {
 	background-image:url(../images/slide1.jpg);
 	background-position: center center;  /*para movil*/
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+	
+	
 	
 }
 
@@ -11058,7 +11130,7 @@ color: #FFFFFF;
   font-family: "Ubuntu", sans-serif;
   font-weight: 200;
   font-style: normal;
-  line-height: 1.9em; 
+  line-height: 2.2em; 
   }
 
   .footer-beneficios3 {
