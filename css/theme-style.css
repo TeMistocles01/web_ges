@@ -4731,7 +4731,7 @@ nav a#pull {
 }
 
 	.container .header .container .marca_logo .logo_ges{
-		width: 3.7em;
+		width: 4em;
 		height:2.3em;
 		
 	  }
@@ -4770,9 +4770,16 @@ nav a#pull {
 	.container-definicion .titles-principal{
 		width: 100%;
 		text-align: center;
-		margin-top: 2em;		
+		
 	}
 	
+.container-loader-origen{
+	margin-top: .5em;
+	width: 100%;
+	display: flex;  /*para que los elementos se posicionen en horizontal uno al lado de otro*/
+	justify-content: center;
+
+ }
 	
 	 .container-card-que-es-ges{
 		/*
@@ -4786,7 +4793,11 @@ nav a#pull {
 		margin-top: 2em;
 		
 	}
-	
+	.container-beneficios .titles-principal .seleccione-targeta p{
+		font-size: 1.2em;
+		color: #ffffff;
+		font-weight: 300;
+	}
 	.container-card-que-es-ges .card-definicion{
 		position: relative;
 		width: 16em;
@@ -5092,9 +5103,9 @@ nav a#pull {
 	margin: .8em auto;	
 }
 
-.icono-soborno{
-	width: 14em;
-	height:6em;
+.container-logo-coorupcion .icono-soborno{
+	width: 15em;
+	height:7em;
 	border-radius: 5px;
 }
 
@@ -5148,7 +5159,19 @@ nav a#pull {
 }
 
 
-
+.fondo-img-catalogo .seleccione-sitios p{ 
+	background-color: #5F7D8B;
+	opacity: 75%;
+	text-align: center;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	padding: .5em 1em;
+	border-radius: 5px;
+  }
+  
 
 
 /* Text-grande titulo */
@@ -5222,9 +5245,10 @@ nav a#pull {
 	font-style: normal;
 	font-size: 1.5em;
 }
+
 .text-tabla1 {
 	display: flex;
-	width: 90%;
+	width: 75%;
 	background-color: #5F7D8B;
 	justify-content: center;
 	/*85b0d3*/
@@ -5235,11 +5259,12 @@ nav a#pull {
 }
 
 .text-tabla1 p{
+	text-align: center;
 	display: flex;
 	font-family: "Ubuntu", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-	font-size: 1.2em;
+    font-weight: 200;
+    font-style: normal;
+	font-size: 1.1em;
 	color: #FFFFFF;
 	
 }
@@ -5260,15 +5285,17 @@ nav a#pull {
 }
 
 iframe{
-	width: 45em;
+	width: 100%;
 	height: 13em;
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	padding: 0em 2em;
 }
 
 .tabla-container{
-	width: 47em;
+	width: 49%;
 	height: max-content;
 	margin: 0em  auto 2em auto;
+	
 }
 
 table{
@@ -5276,7 +5303,48 @@ table{
 	height: 200px;
 	margin: 10px 0 0 0;
 }
+.container-tablas .tabla-container table th{
+	text-align: center;
+    border: 1px solid #FFFFFF;
+    padding: 12px 12px;
+	font-size: 1em;
+	margin-top: .5em;
+	font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+	color: #FFFFFc;
+	line-height: 1.1em;
 
+}
+
+.container-tablas .tabla-container table td{
+	text-align: center;
+    border: 1px solid #FFFFFF;
+    padding: 8px 12px;
+	font-size: .9em;
+	font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+	color: #FFFFFF;
+}
+
+.container-tablas .tabla-container .tabla-container-izquierda p{	
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: .9em;
+	color: #FFFFFF;
+			
+	}
+
+.container-tablas .tabla-container .tabla-container-izquierda .list2{
+	font-size: .9em;
+	margin-top: .1em;
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal; 
+  color: #FFFFFF;	
+}
 
 /* parrafo tabla superior*/
 .container-tablas .tabla-container .tabla-container-izquierda{
@@ -5303,6 +5371,27 @@ table{
 	padding: .2em .2em 0em .2em;
 	
 }
+
+.container-tablas .tabla-container .tabla-container-derecha p{	
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: .9em;
+	color: #FFFFFF;
+			
+	}
+	
+	.container-tablas .tabla-container .tabla-container-derecha .list2{
+	  font-size: .9em;
+	  margin-top: .1em;
+	  font-family: "Ubuntu", sans-serif;
+	  font-weight: 300;
+	  font-style: normal; 
+	  color: #FFFFFF;	
+	}
+	
+
+
 
 /* adquirir*/
 .download{
@@ -5422,6 +5511,14 @@ table{
     height: 27em;
     margin: 5px;	
 }
+
+.container-beneficios .titles-principal .seleccione-targeta p{
+	font-size: 1.2em;
+	color: #ffffff;
+	font-weight: 300;
+}
+
+
 
 /*Margen en todos los costados
 .card-tarjeta .back {
@@ -6229,9 +6326,9 @@ table{
 		font-size: large;
 	}
 
-	.icono-soborno{
+	.container-logo-coorupcion .icono-soborno{
 		width: 14em;
-		height:8em;
+		height:7em;
 		border-radius: 5px;
 	}
 
@@ -6282,7 +6379,7 @@ table{
 
  
  /* Sitios de implementacion*/
-	/* sitios de implementacion*/
+	
 	.fondo-img-catalogo{
 		background-image:url(../images/slide1.jpg);
 		background-position: center center;  /*para movil*/
@@ -10623,6 +10720,7 @@ color: #FFFFFF;
 	font-style: normal;
 	color: #FFFFFF;
 }
+
 .container-beneficios .titles-principal .seleccione-targeta p{
 	font-size: 1.2em;
 	color: #ffffff;
