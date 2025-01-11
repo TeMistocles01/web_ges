@@ -5460,10 +5460,11 @@ table{
 	background: linear-gradient( #5fd9fe 93% ,#FFFFFF);
 
 }
+
 .Share-instantly-left span{
-	background-size:45%;
-	width: 300px;
-	height: 315px;	
+	background-size:65%;
+	width: 238px;
+	height: 330px;	
 	margin-top: 1em;
  }
 
@@ -5487,7 +5488,7 @@ table{
  .feature-right span{
 	background-size:63%;
 	width: 255px;
-	height: 320px;
+	height: 315px;
  }
  .feature-right span{
 	background-position:70px 0;
@@ -6588,18 +6589,24 @@ table{
 
 
 /* coadyubar con el ministerio publico*/
+
+.Share-instantly{
+	background: linear-gradient( #5fd9fe 94% ,#FFFFFF);
+	
+}
+
  
 .Share-instantly-left span{
-	background-size:45%;
-	width: 300px;
-	height: 315px;	
+	background-size:65%;
+	width: 238px;
+	height: 330px;	
 	margin-top: 1em;
  }
 
  
 
  .feature{
-	background: linear-gradient( #5fd9fe 75% ,#FFFFFF);
+	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
 }
 
  /* configure llamadas de emergencia */
@@ -6610,15 +6617,18 @@ table{
 
  /* celular bajo*/
  .feature-right span{
-	background-size:63%;
+	background-size:60%;
 	width: 255px;
-	height: 320px;
+	height: 300px;
  }
  .feature-right span{
 	background-position:70px 0;
 }
 
 /* beneficios*/
+.container-beneficios{
+	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
+}
 .container-tarjeta{
 	width: 100%;
 	display: flex;
@@ -6628,13 +6638,19 @@ table{
 	padding-bottom: 1em;
 	
 }
+.container-beneficios .titles-principal .seleccione-targeta p{
+	font-size: 1.2em;
+	color: #ffffff;
+	font-weight: 300;
+}
+
 
  /*adquirir */
  .download{
 	width: 100%;
 	background: linear-gradient( #5fd9fe 94% ,#FFFFFF);
 	position: relative;
-	padding: 1em 0em;
+	padding: 1em 0em 3em 0em;
 }
 
 /*Texto position*/
@@ -6686,6 +6702,118 @@ table{
 	/* color: #FFFFFF;*/
 	   
 	  }
+
+	  .btn_ir_modal_mostrar {
+		display: flex;
+		justify-content: center;
+		--color-text: #5F7D8B;
+		--color-background: #FFFFFF;
+		--color-outline: #5fd9fe;
+		--color-shadow: #5fd9fe;
+	  }
+	  
+	  .btn-content {
+		display: flex;
+		align-items: center;
+		padding: 0px 50px;
+		text-decoration: none;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 300;
+		font-size: 1em;
+		color: var(--color-text);
+		background: var(--color-background);
+		transition: 1s;
+		border-radius: 10px;
+		box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	  
+	  }
+	  
+	  .btn-content:hover, .btn-content:focus {
+		transition: 0.5s;
+		-webkit-animation: btn-content 1s;
+		animation: btn-content 1s;
+		outline: 0.1em solid transparent;
+		outline-offset: 0.2em;
+		color: #5fd9fe;
+	   
+	  }
+	  
+	  .btn-content .icon-arrow {
+		transition: 0.5s;
+		margin-right: 0px;
+		transform: scale(0.6);
+	  }
+	  
+	  .btn-content:hover .icon-arrow {
+		transition: 0.5s;
+		margin-right: 25px;
+		
+	  }
+	  
+	  .icon-arrow {
+		width: 20px;
+		margin-left: 15px;
+		position: relative;
+		top: 6%;
+		
+	  }
+		
+	  /* SVG */
+	  #arrow-icon-one {
+		transition: 0.4s;
+		transform: translateX(-60%);
+	  }
+	  
+	  #arrow-icon-two {
+		transition: 0.5s;
+		transform: translateX(-30%);
+	  }
+	  
+	  .btn-content:hover #arrow-icon-three {
+		animation: color_anim 1s infinite 0.2s;
+	  }
+	  
+	  .btn-content:hover #arrow-icon-one {
+		transform: translateX(0%);
+		animation: color_anim 1s infinite 0.6s;
+	  }
+	  
+	  .btn-content:hover #arrow-icon-two {
+		transform: translateX(0%);
+		animation: color_anim 1s infinite 0.4s;
+	  }
+	  
+	  /* SVG animations */
+	  @keyframes color_anim {
+		0% {
+		  fill: #5fd9fe;
+		}
+	  
+		50% {
+		  fill: var(--color-background);
+		}
+	  
+		100% {
+		  fill: #5fd9fe;
+		}
+	  }
+	  
+	  /* Button animations */
+	  @-webkit-keyframes btn-content {
+		0% {
+		  outline: 0.2em solid var(--color-background);
+		  outline-offset: 0;
+		}
+	  }
+	  
+	  @keyframes btn-content {
+		0% {
+		  outline: 0.2em solid var(--color-background);
+		  outline-offset: 0;
+		}
+	  }
+	
+	
 /*Efecto */
 
 .container-loader12-adquirir{
@@ -6696,10 +6824,7 @@ table{
 
 /*boton envio formulario*/
 
-.container-btn-formulario{
-	width: 70%;
 
-}
 
 	  /*boton
 .btn_ir_modal_mostrar{
@@ -6722,19 +6847,14 @@ table{
 	*/
 /* texto bajo card*/
 
-.card-tarjeta .back .link  {
-	border-top: solid 1px #f3f3f3;
-	font-size: small;
-	text-align: center;
-	line-height: 50px; /*altura de la linea */
-}
+
 
 /*ficha tecnica*/
 
 .compatibility{
-	background: linear-gradient( #5fd9fe 97% ,#FFFFFF);
+	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
 	width: 100%;
-	height: 32em;
+	height: max-content;
 
 }
 
@@ -9050,6 +9170,7 @@ color: #FFFFFF;
 	font-style: normal;
 	color: #FFFFFF;
 }
+
 .container-beneficios .titles-principal .seleccione-targeta p{
 	font-size: 1.1em;
 	color: #ffffff;

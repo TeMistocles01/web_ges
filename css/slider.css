@@ -697,7 +697,7 @@
 
 }
 */
-@media all and (min-width:800px) and (max-width:1024px){
+@media all and (min-width:801px) and (max-width:1024px){
 
 	.da-slide .da-img{
 		text-align: center;
@@ -734,18 +734,18 @@
 	}
 }
 
-@media all and (min-width:768px) and (max-width:799px){
+@media all and (min-width:768px) and (max-width:800px){
 
 	.da-slider {
 		width: 350px;
- 		height:200px;
+ 		height:180px;
 		 left: 50px;
     }
 
 	/* slider bajo*/
 	.da-slider1{
 		width: 350px;
- 		height:200px;
+ 		height:180px;
 		left: 10px;
 		float: inline-start;
 		/*color: #AEAEAE;*/
