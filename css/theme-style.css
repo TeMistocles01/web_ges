@@ -2279,20 +2279,25 @@ color: #FFFFFF;
 	flex-direction: row;
   }
 
-  .info1 {
-	border: none;
-	padding: 1.5em 0em .5em 0em;
-	margin-left: auto;
-	margin-right: auto;
-	/*
+  .back .info1 .title {
+	font-size: 1.1em;
 	text-align: center;
-	*/
+	line-height: 1em;
+	
+
   }
   
-  
-  .info-card1 {
+  .back .info1 {
 	border: none;
-	padding: 1em;
+	padding: 1em 1em;
+	text-align: center;
+	
+
+  }
+
+  .info-card1{
+	padding: 0em 1em;
+
   }
 
   .info-card1 p{
@@ -2300,21 +2305,22 @@ color: #FFFFFF;
 	font-family: "Ubuntu", sans-serif;
   font-weight: 200;
   font-style: normal;
-  line-height: 3em; 
+  line-height: 3.1em; 
+  
   }
 
 
   .footer-beneficios1 {
-	margin-top: 4.5em;
-	padding: 0.75rem;
+	margin-top: 4.7em;
+	padding: 0.75em;
 	border: 2px #FFFFFF solid;
-	/*border: 2px solid rgb(236 239 241);*/
+	border: 2px solid rgb(236 239 241);
 	display: flex;
 	flex-direction: column;
 	background-color: #B3E5FC;
 	opacity: 0.7;
-	/*background-color: rgba(0, 140, 255, 0.082);*/
-	/*#B3E5FC*/
+	box-shadow: 0 5px 10px #000;
+	
   }
   
 
@@ -2342,20 +2348,25 @@ color: #FFFFFF;
 	
   }
 
-  .info2 {
-	border: none;
-	padding: 1.5em 0em .5em 0em;
-	margin-left: auto;
-	margin-right: auto;
-	/*
+  .back .info2 .title {
+	font-size: 1.1em;
 	text-align: center;
-	*/
+	line-height: 1em;
+
   }
-  
-  .info-card2 {
+
+  .back .info2 {
 	border: none;
-	padding: 1em;
+	padding: 1em 1em;
+	text-align: center;
+
   }
+
+  .info-card2{
+	padding: 0em 1em;
+
+  }
+
 
 
   .info-card2 p{
@@ -2368,15 +2379,14 @@ color: #FFFFFF;
 
   .footer-beneficios2 {
 	margin-top: 1em;
-	padding: 0.75rem;
-	/*border: 2px solid rgb(236 239 241);*/
+	padding: 0.75em;
+	border: 2px solid rgb(236 239 241);
 	display: flex;
 	flex-direction: column;
 	background-color: #B3E5FC;
 	opacity: 0.7;
 	box-shadow: 0 5px 10px #000;
-	/*background-color: rgba(0, 140, 255, 0.082);*/
-	/*#B3E5FC*/
+	
   }
   
 
@@ -2405,20 +2415,26 @@ color: #FFFFFF;
   }
 
 
-.info3 {
-	border: none;
-	padding: 1.5em 0em .5em 0em;
-	margin-left: auto;
-	margin-right: auto;
-	/*
+  .back .info3 .title {
+	font-size: 1.1em;
 	text-align: center;
-	*/
+	line-height: 1em;
   }
-  
+ 
+  .back .info3 {
+	border: none;
+	padding: 1em 1em;
+	text-align: center;
+	
+
+  } 
+
   .info-card3 {
 	border: none;
-	padding: 1em;
+	padding: 0em F10251em;
   }
+
+  
 
 
   .info-card3 p{
@@ -2426,20 +2442,19 @@ color: #FFFFFF;
   font-family: "Ubuntu", sans-serif;
   font-weight: 200;
   font-style: normal;
-  line-height: 2em; 
+  line-height: 2.1em; 
   }
 
   .footer-beneficios3 {
-	margin-top: 1em;
+	margin-top: 2em;
 	padding: 0.75rem;
-	/*border: 2px solid rgb(236 239 241);*/
+	border: 2px solid rgb(236 239 241);
 	display: flex;
 	flex-direction: column;
 	background-color: #B3E5FC;
 	opacity: 0.7;
 	box-shadow: 0 5px 10px #000;
-	/*background-color: rgba(0, 140, 255, 0.082);*/
-	/*#B3E5FC*/
+	
   }
 
 
@@ -4325,6 +4340,20 @@ iframe{
 }
 
 
+.card-tarjeta .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 45px;
+    color: #FFFFFF;
+    background: rgba(0,0,0,.4); /*rgba(0,0,0,.4); */
+    text-align: center;
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2em;
+	/*rgba(95,217,254,.9);*/
+}
 
 /* container Titulo */
 .header-card1 {
@@ -4348,18 +4377,22 @@ iframe{
 	flex-direction: row;
   }
 
-  .info1 {
+ 
+  .back .info1 .title {
+	font-size: 1.1em;
 	text-align: center;
-	border: none;
-	padding: .5em 0em;
-	margin-left: auto;
-	margin-right: auto;
+	line-height: 1em;
 	
-	/*
-	text-align: center;
-	*/
+
   }
-  
+  .back .info1 {
+	border: none;
+	padding: 1em 1em;
+	text-align: center;
+	
+
+  }
+
   
   .info-card1 {
 	border: none;
@@ -4412,15 +4445,18 @@ iframe{
 	flex-direction: row;
   }
 
-  .info2 {
+  .back .info2 .title {
+	font-size: 1.1em;
 	text-align: center;
+	line-height: 1em;
+
+  }
+
+
+  .back .info2 {
 	border: none;
-	padding: .5em 0em;
-	margin-left: auto;
-	margin-right: auto;
-	/*
+	padding: 1em 1em;
 	text-align: center;
-	*/
   }
   
   .info-card2 {
@@ -4474,17 +4510,19 @@ iframe{
 	font-size: 1.4em;
 	flex-direction: row;
   }
-.info3 {
+
+  .back .info3 .title {
+	font-size: 1.1em;
 	text-align: center;
-	border: none;
-	padding: .5em 0em;
-	margin-left: auto;
-	margin-right: auto;
-	/*
-	text-align: center;
-	*/
+	line-height: 1em;
   }
-  
+
+.back .info3 {
+	border: none;
+	padding: 1em 1em;
+	text-align: center;
+  }   
+
   .info-card3 {
 	border: none;
 	padding: 0em .7em;
@@ -4496,7 +4534,7 @@ iframe{
   font-family: "Ubuntu", sans-serif;
   font-weight: 200;
   font-style: normal;
-  line-height: 1.7em; 
+  line-height: 1.8em; 
   }
 
   .footer-beneficios3 {
@@ -4770,17 +4808,7 @@ nav a#pull {
 	display: none;
 }
 
-
-
-	 .slide-text-info p{
-		font-size: 2.5em;
-		font-family: "Ubuntu", sans-serif;
-	  font-weight: 400;
-	  font-style: normal;
-	}
-
-
-	
+	 
 /* start bloke slider*/
 .container-text-slider-izquierda{
 	width: 75%;
@@ -4822,6 +4850,9 @@ nav a#pull {
 	font-size:0.7725em;
  }
  .slide-text-info p {
+	font-family: "Ubuntu", sans-serif;
+	  font-weight: 400;
+	  font-style: normal;
 	font-size: 1.6em;
  }
  
@@ -4865,6 +4896,16 @@ nav a#pull {
 		margin-top: 2em;
 		
 	}
+
+	/* tipografia para los sub titulos*/
+.container-definicion .titles-principal h2{
+	font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	color: #FFFFFF;
+	font-size: 1.4em;
+}
+
 	.container-beneficios .titles-principal .seleccione-targeta p{
 		font-size: 1.2em;
 		color: #ffffff;
@@ -4993,7 +5034,7 @@ nav a#pull {
 	font-weight: 300;
 	font-style: normal;
 	color: #FFFFFF;
-	font-size: 1.5em;		
+	font-size: 1.4em;		
   }
   
   .features-Funciones-Destacadas .sub-titulo{
@@ -5072,9 +5113,14 @@ nav a#pull {
     background-position: -270px 0px;
  }
  
-.features-grids .features-grid h3 {
-	font-size: 1.1em;
+ .container-card-funciones .features-grid .text-funciones h3{
+	font-size: 1.3em;
+	font-weight: 300;
+
+
 }
+
+
 .features-grids .features-grid p {
 	font-size: 1em;	
  }
@@ -5090,6 +5136,9 @@ nav a#pull {
 	
 }
 
+.titles-principal h2{
+	font-size: 1.4em;	
+}
 
 .card-origen-center{
 	width:  90%;
@@ -5209,24 +5258,34 @@ nav a#pull {
 /* sitios de implementacion*/
 
 .fondo-img-catalogo{
-	background-image:url(../images/slide1.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center center;
+	width: 100%;
+    height: 45em;
 }
   
+
+img{
+	width: 100%;
+	height: 45em;
+	}
+
+	.titles-principal-sitios{
+		padding-top: 2em;
+		position: relative;
+		margin-top: -46em;
+	}
+	
+
 .titles-principal-sitios h2{
 	width: 100%;
 	text-align: center;
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	color: #FFFFFF;
 	background-color: #5F7D8B;
 	opacity: 85%;
-	padding: 1em 0em 1em 0em;
+	padding: .7em 0em .7em 0em;
 		
 }
 
@@ -5240,7 +5299,7 @@ nav a#pull {
 	font-style: normal;
 	color: #FFFFFF;
 	font-size: 1.2em;
-	padding: .5em 1em;
+	padding: .5em .7em;
 	border-radius: 5px;
   }
   
@@ -5541,7 +5600,7 @@ table{
  }
 
  .Share-instantly .container .Share-instantly-right .titles-share h2{
-	font-size: 1.8em;
+	font-size: 1.4em;
 	font-family: "Ubuntu", sans-serif;
 	  font-weight: 300;
 	  font-style: normal;
@@ -5569,7 +5628,7 @@ table{
  
 
  .feature .container .feature-left .titles-share  h2{
-	font-size: 1.8em;
+	font-size: 1.4em;
 	font-family: "Ubuntu", sans-serif;
 	  font-weight: 300;
 	  font-style: normal;
@@ -5586,11 +5645,20 @@ table{
 }
 
 .container-beneficios .titles-principal .seleccione-targeta p{
-	font-size: 1.2em;
+	font-size: 1.1em;
 	color: #ffffff;
 	font-weight: 300;
 }
 
+.container-beneficios .titles-principal h2{
+	width: 100%;
+	text-align: center;
+	font-size: 1.4em;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #FFFFFF;
+}
 
 
 /*Margen en todos los costados
@@ -5998,7 +6066,19 @@ table{
 
 @media (min-width:768px) and (max-width:800px){
 
-	/* start bloke slider*/
+	
+
+
+	
+	
+	
+	/*da margen hacia bajo al desplegar el menu de amburgesa */
+	nav ul {
+		margin-top: 1em;
+		
+	}
+	
+/* start bloke slider*/
 .container-text-slider-izquierda{
 	width: 70%;	
 }
@@ -6006,47 +6086,47 @@ table{
 .container-text-slider-derecha{
 	width: 30%;
 }
-
-/* end bloke slider*/
-
+.container .header .container .marca_logo{
+	position: absolute;
+top: 15px;
+left: 20px;
 	
-	/* bajar letras slider principal*/
+  }
+.container .header .container .marca_logo .logo_ges{
+	width: 5em;
+	height:2.5em;
+	
+  }
+.header {
+	position: fixed;
+	z-index: 999;
+	right: 0;
+	left: 0;
+ }
+ .top-nav ul li a {
+	color: #FFF;
+	padding: .7em .4em;
+	font-size:0.7725em;
+ }
+
+ 
+ .slide-text-info p {
+	font-size: 1.4em;
+ }
+ /* bajar letras slider principal*/
 .slide-text-info{
 	margin-top:4%;
 }
-	
-	/*da margen hacia bajo al desplegar el menu de amburgesa */
-	nav ul {
-		margin-top: 1em;
-		
-	}
-	.container .header .container .marca_logo{
-		position: absolute;
-	top: 15px;
-	left: 20px;
-		
+	 /*
+	 .top-nav ul li.active a, .top-nav ul li a:hover {
+		color: #2C3E50;
 	  }
-	.container .header .container .marca_logo .logo_ges{
-		width: 5em;
-		height:2.5em;
-		
-	  }
-	.header {
-		position: fixed;
-		z-index: 999;
-		right: 0;
-		left: 0;
+	  .top-nav ul li a {
+		font-size: 0.8125em;
+		padding:0px;
+		color: #2C3E50;
 	 }
-	 .top-nav ul li a {
-		color: #FFF;
-		padding: .7em .4em;
-		font-size:0.7725em;
-	 }
-	 .slide-text-info p {
-		font-size: 1.4em;
-	 }
-
-	 
+	*/
 	  /* Que es GES */
 	  .container-definicion{
 		width: 100%;
@@ -6432,36 +6512,31 @@ table{
 		margin: 1em 0em;
 	}
 
- .top-nav ul li.active a, .top-nav ul li a:hover {
-	color: #2C3E50;
-  }
-  .top-nav ul li a {
-	font-size: 0.8125em;
-	padding:0px;
-	color: #2C3E50;
- }
- .download {
-	padding: 10px 0;
- }
+
+ 
 
 
- nav a#pull img {
-   margin-right:0;
- }
 
 
  
  /* Sitios de implementacion*/
 	
 	.fondo-img-catalogo{
-		background-image:url(../images/slide1.jpg);
-		background-position: center center;  /*para movil*/
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
+		width: 100%;
+        height: 45em;
 	}
 	
+img{
+	width: 100%;
+	height: 45em;
+	}
 
+	.titles-principal-sitios{
+		padding-top: 2em;
+		position: relative;
+		margin-top: -46em;
+	}
+	
 	.titles-principal-sitios h2{
 		width: 100%;
 		text-align: center;
@@ -6471,8 +6546,8 @@ table{
 		color: #FFFFFF;
 		background-color: #5F7D8B;
 		opacity: 85%;
-		padding: 1em 0em 1em 0em;
-		font-size: 1.5em;	
+		padding: .7em 0em .7em 0em;
+		font-size: 1.4em;	
 	}
 	
 	
@@ -6485,7 +6560,7 @@ table{
 		font-style: normal;
 		color: #FFFFFF;
 		font-size: 1em;
-		padding: .7em 1.3em;
+		padding: .7em 1em;
 		border-radius: 5px;
 	  }
 	
@@ -6724,6 +6799,7 @@ table{
 	position: relative;
 	padding: 1em 0em 3em 0em;
 }
+
 
 /*Texto position*/
 .download-right{
@@ -7316,14 +7392,14 @@ table{
 	  font-style: normal;
 		font-size: 1em;
 	}
-	
+	/*
 	.container-multiples-sitios .seleccione p{
 		font-family: "Ubuntu", sans-serif;
 	  font-weight: 200;
 	  font-style: normal;
 		font-size: 1em;
 	}
-	
+	*/
 	 
 	  .download-left span {
 		background-size: 70%;
@@ -7667,11 +7743,7 @@ table{
 	
 	/* sitios de implementacion*/
 	.fondo-img-catalogo{
-		background-image:url(../images/slide1.jpg);
-		background-position: center center;  /*para movil*/
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
+		
 	}
 	
 	.titles-principal-sitios h2{
@@ -8954,11 +9026,7 @@ font-size: 1em;
 
  /* sitios de implementacion*/
  .fondo-img-catalogo{
-	background-image:url(../images/slide1.jpg);
-	background-position: center center;  /*para movil*/
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+	
 }
 
 .titles-principal-sitios h2{
@@ -10599,9 +10667,7 @@ form {
  /* sitios de implementacion*/
 
  .fondo-img-catalogo{
-	background-image:url(../images/slide1.jpg);
-	background-position: center center;  /*para movil*/
-	background-repeat: no-repeat;
+	
 	
 	
 	
@@ -10928,20 +10994,7 @@ color: #FFFFFF;
 }
 
 
-  
-/* container Titulo */
-.header-card {
-	height: 5em;
-	position: relative;
-	background-clip: border-box;
-	margin-top: 2rem;
-	margin-left: .5em;
-	margin-right: .5em;
-	border-radius: 0.45em;
-	background: linear-gradient( #5fd9fe 80% ,#FFFFFF);
-	box-shadow: 0 10px 15px -3px rgba(33,150,243,.4),0 4px 6px -4px rgba(33,150,243,.4);
-  }
-
+ 
 
 .card-tarjeta .front h3 {
     position: absolute;
